@@ -1,0 +1,8 @@
+[
+    {
+        "target_host": "192.168.1.12",
+        "target_port": 0,
+        "cve_id": "N/A",
+        "base_severity": 2.1
+    }
+]

@@ -1,0 +1,6 @@
+Asset ID,Asset Name / Role,OS / Stack,Virtualization Environment,Network / Lab Role,Comments
+AST-001,Attacker,Kali Linux,VMware Workstation Pro,"Greenbone Scanning, Attack source ",
+AST-002,Victim 1,Ubuntu 16.04,VMware Workstation Pro,Linux target for vulnerability analysis,Temp
+AST-003,Victim 2,Windows Server 2016,VMware Workstation Pro,Windows/AD target for high-impact compromise,
+AST-004,Victim 3,Windows 7,VMware Workstation Pro,Legacy client target,
+AST-005,Victim 4,Ubuntu + DVWA (PHP/MySQL),VMware Workstation Pro,Vulnerable web application target,
