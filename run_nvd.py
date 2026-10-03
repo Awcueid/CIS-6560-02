@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import json
 import os
-import requests  # Required for making HTTP requests to the NVD API
+import requests 
 from dotenv import load_dotenv  # Safely load configuration settings from .env file
 
 # Initialize and load environment variables from the local .env file
