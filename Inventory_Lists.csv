@@ -1,0 +1,5 @@
+Asset ID,Asset Name / Role,OS / Stack,Virtualization Environment,Network / Lab Role,Comments
+AST-001,Scanner Node,Kali Rolling (2026.2) x64,VMware Workstation Pro,"Greenbone Scanning, Attack source ",
+AST-002,Target 1,Windows Server 2016,VMware Workstation Pro,Windows/AD target for high-impact compromise,
+AST-003,Target 2,Windows 7,VMware Workstation Pro,Legacy client target,
+AST-004,Target 3,Ubuntu + DVWA (PHP/MySQL),VMware Workstation Pro,Vulnerable web application target,

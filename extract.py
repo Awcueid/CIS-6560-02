@@ -8,7 +8,7 @@ load_dotenv()
 NVD_API_KEY = os.getenv("NVD_API_KEY")
 
 # Official NVD API v2.0 endpoint URL
-NVD_BASE_URL = "https://nist.gov"
+NVD_BASE_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 
 def fetch_recent_cves(results_per_page=5):
     """
@@ -61,5 +61,5 @@ if __name__ == "__main__":
     print("Starting NVD API Data Extraction Test...")
     fetch_recent_cves(results_per_page=5)
     
-    # Mandatory sleep delay to protect your IP from rate limits
+    # Mandatory sleep delay
     time.sleep(0.6)

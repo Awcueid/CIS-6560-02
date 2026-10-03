@@ -1,3 +1,5 @@
+# Security Scan Report Verification Script # 
+
 import os
 import glob
 
