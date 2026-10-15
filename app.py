@@ -16,14 +16,13 @@ load_dotenv()
 API_KEY = os.getenv("NVD_API_KEY")
 BASE_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 REPORTS_DIR = "scan_reports"
-CSV_FILE_PATH = "Inventory_Lists.csv"
+CSV_FILE_PATH = "reference_data/Inventory_Lists.csv"
 
 st.set_page_config(
     page_title="SOC Dashboard - CIS6560 Sec02 - Context-Aware Vulnerability Prioritization",
     layout="wide"
 )
 
-# Professional UI Padding & Typography Overrides
 st.markdown("""
 <style>
     .block-container {
