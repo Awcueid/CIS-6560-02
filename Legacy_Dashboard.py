@@ -79,7 +79,7 @@ menu_selection = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.caption("Scoring Engine v1.1.1")
+st.sidebar.caption("Scoring Engine v0.0")
 
 
 # ==========================================

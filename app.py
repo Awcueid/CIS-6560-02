@@ -1,56 +1,36 @@
-import os
 import streamlit as st
-from dotenv import load_dotenv
-from utils import apply_theme, render_sidebar
 
-# ==========================================
-# 1. INITIALIZATION & CORE SETTINGS
-# ==========================================
-load_dotenv()
+v0_page = st.Page("Legacy_Dashboard.py", title="Version 0.0 (before Oct 14)")
+v1_page = st.Page("pages/0_SOC_Main.py", title="Version 1.0 (Development)")
 
-API_KEY = os.getenv("NVD_API_KEY")
-BASE_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
-REPORTS_DIR = "scan_reports"
-CSV_FILE_PATH = "reference_data/Inventory_Lists.csv"
-EXCEL_FILE_PATH = "reference_data/vulnerability_contextualization_scanner_sample_updated.xlsx"
+if "selected_version" not in st.session_state:
+    st.session_state.selected_version = None
 
-st.set_page_config(
-    page_title="SOC Dashboard - CIS6560 Sec02 - Context-Aware Vulnerability Prioritization",
-    layout="wide"
-)
 
-# Apply global dynamic theme
-apply_theme()
+if st.session_state.selected_version is None:
 
-# ==========================================
-# 2. GLOBAL SESSION STATE MANAGEMENT
-# ==========================================
-if "nvd_data" not in st.session_state:
-    st.session_state.nvd_data = None
-if "has_fetched" not in st.session_state:
-    st.session_state.has_fetched = False
-if "df_assets" not in st.session_state:
-    st.session_state.df_assets = None
-if "df_sample_excel" not in st.session_state:
-    st.session_state.df_sample_excel = None
-if "df_pipeline_results" not in st.session_state:
-    st.session_state.df_pipeline_results = None
+    st.set_page_config(page_title="Context-Aware Vulnerability Prioritization Engine Version Selector", layout="centered", initial_sidebar_state="collapsed")
+    
+    st.title("Context-Aware Vulnerability Prioritization Engine")   
+    st.subheader("Version Selection")
+    st.write("Select a system version to run. (V0.0: Streamlit Test | V1.0: In Development)")
+    st.divider()
 
-# Initialize global risk calculation weights
-if "weights" not in st.session_state:
-    st.session_state.weights = {
-        "severity": 0.40,
-        "exploited": 0.15,
-        "poc": 0.10,
-        "patch": 0.10,
-        "controls": 0.10,
-        "asset": 0.10,
-        "transfer": 0.05
-    }
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("Version 0.0")
+        st.caption("for Streamlit testing")
+        if st.button("Run Version 0.0", key="go_v0", use_container_width=True):
+            st.session_state.selected_version = v0_page
+            st.rerun()
 
-# Render common sidebar navigation and theme toggle
-render_sidebar()
+    with col2:
+        st.subheader("Version 1.0")
+        st.caption("In Development")
+        if st.button("Run Version 1.0", key="go_v1", type="primary", use_container_width=True):
+            st.session_state.selected_version = v1_page
+            st.rerun()
 
-# Main Hub Screen
-st.title("SOC Dashboard Hub")
-st.markdown("Select a module from the sidebar navigation to begin analysis.")
+else:
+    pg = st.navigation([st.session_state.selected_version], position="hidden")
+    pg.run()

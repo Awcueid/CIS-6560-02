@@ -1,0 +1,24 @@
+{
+    "taxonomy_metadata": {
+        "current_version": "v1.2.0",
+        "history": [
+            {
+                "version": "v1.2.0",
+                "effective_date": "2026-10-15",
+                "description": "Initial default taxonomy"
+            },
+            {
+                "version": "v1.2.0",
+                "effective_date": "2026-10-17 17:17:25",
+                "description": "Tuned risk weights for operational priority"
+            }
+        ]
+    },
+    "severity_weights": {
+        "Critical": 10.0,
+        "High": 8.0,
+        "Medium": 5.0,
+        "Low": 2.0,
+        "Info": 0.0
+    }
+}
