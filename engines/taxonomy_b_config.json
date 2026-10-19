@@ -1,0 +1,32 @@
+{
+  "taxonomy_name": "Option B - Content Aware Engine",
+  "version": "1.0",
+  "weights": {
+    "severity": 0.40,
+    "exploitation": 0.15,
+    "poc_availability": 0.10,
+    "patch_difficulty": 0.10,
+    "controls": 0.10,
+    "asset_criticality": 0.10,
+    "risk_acceptance": 0.05
+  },
+  "mappings": {
+    "exploitation_context": {
+      "Active": 100, "In the Wild": 100, "PoC": 50, "None": 0
+    },
+    "exposure_classification": {
+      "External": 100, "Remote": 100, "Internal": 40, "Local": 20
+    },
+    "patch_complexity": {
+      "High": 100, "Medium": 60, "Low": 20
+    },
+    "data_status": {
+      "Active": 100, "Open": 100, "In Progress": 70, "Accepted": 0, "Risk Accepted": 0
+    }
+  },
+  "rules": {
+    "missing_control_score": 100,
+    "existing_control_score": 30,
+    "internet_facing_override_score": 100
+  }
+}

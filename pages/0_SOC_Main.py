@@ -7,7 +7,7 @@ import plotly.express as px
 st.set_page_config(page_title="Vulnerability Engine", layout="wide")
 st.markdown("<style>.main-title { font-size: 3.5rem; font-weight: 800; display: block; }\n.top-action-item { font-size: 0.9rem; padding: 6px 10px; background-color: #fff0f0; border-left: 4px solid #ff4b4b; margin-bottom: 6px; border-radius: 0 4px 4px 0; color: #333333; }</style>", unsafe_allow_html=True)
 st.markdown('<h1 class="main-title">Context-Aware Vulnerability Prioritization Engine</h1>', unsafe_allow_html=True)
-st.error("Under Development")
+st.error("Under Development - Priotized List V1")
 st.markdown("---")
 
 @st.cache_data
@@ -38,6 +38,14 @@ with st.sidebar:
     st.button("Recalculate", use_container_width=True)
 
 norm_option = "None (Original)"
+
+# -----------------------------------------------------------------------------
+# Data Ingestion & Engine Processing
+# -----------------------------------------------------------------------------
+
+if taxonomy == "Option B":
+    from engines.taxonomy_b_engine import run_option_b_engine
+    vuln_data = run_option_b_engine(vuln_data)
 
 # Main Dashboard Metrics Computation
 total = len(vuln_data)
@@ -124,7 +132,16 @@ def render_queue(df_source):
 tab_new, tab_cisa, tab_all = st.tabs(["Taxonomy Applied Queue(TBD)", "CISA KEV Validated Queue", "Queue"])
 
 with tab_new:
-    st.write("Taxonomy Applied Queue(TBD)")
+    if taxonomy == "Option B":
+        st.subheader("Option B: Content-Aware Prioritization View")
+        
+        if 'Normalized Score' in vuln_data.columns:
+            sorted_taxonomy_data = vuln_data.sort_values(by='Normalized Score', ascending=False)
+            render_queue(sorted_taxonomy_data)
+        else:
+            st.error("Engine failure: 'Normalized Score' column not found in dataset.")
+    else:
+        st.info("👈 Please select **'Option B'** (In development) ")
 
 with tab_cisa:
     cisa_filtered_data = vuln_data[vuln_data['CISA KEV Status'] == "Confirmed - Active Exploitation"] if 'CISA KEV Status' in vuln_data.columns else pd.DataFrame()
