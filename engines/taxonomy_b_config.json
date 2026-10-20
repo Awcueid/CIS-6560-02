@@ -1,6 +1,7 @@
 {
-  "taxonomy_name": "Option B - Content Aware Engine",
+  "taxonomy_name": "Option B",
   "version": "1.0",
+  "last_updated": "2026-10-19",
   "weights": {
     "severity": 0.40,
     "exploitation": 0.15,

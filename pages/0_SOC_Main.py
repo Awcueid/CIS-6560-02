@@ -33,7 +33,8 @@ vuln_data = load_raw_data()
 # Left Sidebar Navigation
 with st.sidebar:
     st.header("Navigation & Settings")
-    taxonomy = st.selectbox("Taxonomy", ["None", "Option A", "Option B"], index=1)
+    taxonomy = st.selectbox("Taxonomy", ["None", "Option A-CB", "Option B-MJ", "Option C-MK"], index=1)
+    # taxonomy = st.selectbox("Taxonomy", ["None", "Threat-Focused", "Balanced", "Business-Focused"], index=1)
     st.markdown("---")
     st.button("Recalculate", use_container_width=True)
 
@@ -83,27 +84,73 @@ if total > 0:
 col_status, col_chart = st.columns(2)
 with col_status:
     st.metric("Status", status)
+    
+    # ----------------------------------------------------------------------
+    # Recalculate Contextual Priority
+    # ----------------------------------------------------------------------
+    if total > 0 and 'Contextual priority' in vuln_data.columns:
+        st.markdown("<p style='font-size: 1.1rem; font-weight:700; margin-top:15px;'>Vulnerability by Contextual Priority</p>", unsafe_allow_html=True)
+        
+        priority_df = vuln_data['Contextual priority'].value_counts().reset_index(name='Count')
+        
+        fig_priority = px.pie(
+            priority_df, 
+            values='Count', 
+            names='Contextual priority', 
+            hole=0.4, 
+            color_discrete_sequence=px.colors.sequential.OrRd_r
+        )
+        fig_priority.update_traces(textposition='inside', textinfo='percent+value')
+        fig_priority.update_layout(margin=dict(t=10, b=15, l=0, r=0), height=350)
+        
+        st.plotly_chart(fig_priority, use_container_width=True)
+    
     if top_actions:
         st.markdown("<p style='font-size: 1.1rem; font-weight:700; margin-top:15px;'>Immediate Action Required (Top 5):</p>", unsafe_allow_html=True)
-        for act in top_actions: st.markdown(f"<div class='top-action-item'>{act}</div>", unsafe_allow_html=True)
-    elif total > 0: st.markdown("<p style='color:green; font-weight:600; margin-top:15px;'>No active P1 vulnerabilities found.</p>", unsafe_allow_html=True)
+        for act in top_actions: 
+            st.markdown(f"<div class='top-action-item'>{act}</div>", unsafe_allow_html=True)
+    elif total > 0: 
+        st.markdown("<p style='color:green; font-weight:600; margin-top:15px;'>No active P1 vulnerabilities found.</p>", unsafe_allow_html=True)
+
 
 with col_chart:
     if total > 0 and 'Asset group' in vuln_data.columns:
         gdf = vuln_data['Asset group'].value_counts().reset_index(name='Count')
         fig = px.pie(gdf, values='Count', names='Asset group', title='Vulnerability Distribution by Asset Group', hole=0.4, color_discrete_sequence=px.colors.sequential.RdBu)
-        fig.update_traces(textposition='inside', textinfo='percent+value').update_layout(margin=dict(t=40, b=0, l=0, r=0), height=250)
+        fig.update_traces(textposition='inside', textinfo='percent+value').update_layout(margin=dict(t=40, b=0, l=0, r=0), height=600)
         st.plotly_chart(fig, use_container_width=True)
 
 st.markdown("---")
+
 metrics_data = [
-    {"label": "Total Findings", "val": f"{total:,}", "delta": None},
-    {"label": "Unique CVEs", "val": uniq_cves, "delta": None},
     {"label": "Critical", "val": f"{crit_vulns}", "delta": crit_delta if crit_delta != "No Data Available" else None},
-    {"label": "Est. MTTR", "val": mttr, "delta": None}
+    {"label": "Est. MTTR", "val": mttr, "delta": None},
 ]
-for col, item in zip(st.columns(4), metrics_data):
-    col.metric(label=item["label"], value=item["val"], delta=item["delta"], delta_color="inverse" if item["delta"] else "normal")
+
+col_total, col_critical, col_mttr = st.columns(3)
+
+with col_total:
+    st.metric(
+        label="Total Findings",
+        value=f"{total:,}",
+        delta=None,
+    )
+    st.markdown(f"Unique CVEs: {uniq_cves}")
+
+with col_critical:
+    st.metric(
+        label="Critical",
+        value=f"{crit_vulns}",
+        delta=crit_delta if crit_delta != "No Data Available" else None,
+        delta_color="inverse" if crit_delta and crit_delta != "No Data Available" else "normal",
+    )
+
+with col_mttr:
+    st.metric(
+        label="Est. MTTR",
+        value=mttr,
+        delta=None,
+    )
 
 st.markdown("---")
 
@@ -115,39 +162,167 @@ def get_severity_styles(row):
     return [style] * len(row)
 
 def render_queue(df_source):
-    if len(df_source) > 0:
-        df_disp = df_source.copy()
-        df_disp.insert(0, "No.", np.arange(1, len(df_disp) + 1))
-        df_disp = df_disp.drop(columns=[c for c in ['Finding ID', 'Data status'] if c in df_disp.columns])
-        if 'Vulnerability title' in df_disp.columns and 'CVE ID' in df_disp.columns:
-            df_disp['Vulnerability title'] = df_disp.apply(lambda r: f"https://nist.gov{r['CVE ID']}?title={str(r['Vulnerability title'])}" if str(r['CVE ID']).strip() else str(r['Vulnerability title']), axis=1)
-        
-        fmt = {k: v for k, v in [("CVSS base score", "{:.1f}"), ("Normalized Score", "{:.2f}")] if k in df_disp.columns}
-        cfg = {"No.": st.column_config.NumberColumn("No.", format="%d"), "Vulnerability title": st.column_config.LinkColumn("Vulnerability Title", display_text=r"title=(.*)$"), "CISA KEV Reference Link": st.column_config.LinkColumn("CISA KEV Feed Link", display_text="Open CISA Portal"), "Normalized Score": st.column_config.NumberColumn("Normalized Score", format="%.2f")}
-        st.dataframe(df_disp.style.apply(get_severity_styles, axis=1).format(fmt, na_rep=""), use_container_width=True, height=650, hide_index=True, column_config=cfg)
-    else:
+    if len(df_source) == 0:
         st.warning("No data available for this queue view.")
+        return
+
+    df_disp = df_source.copy()
+
+    # Add row numbers
+    df_disp.insert(0, "No.", np.arange(1, len(df_disp) + 1))
+
+    # Remove internal columns
+    df_disp = df_disp.drop(
+        columns=[c for c in ["Finding ID", "Data status"] if c in df_disp.columns]
+    )
+
+    # Build valid NVD detail links
+    if "CVE ID" in df_disp.columns:
+        df_disp["CVE ID"] = df_disp["CVE ID"].astype(str).str.strip()
+
+        df_disp["NVD Details"] = df_disp["CVE ID"].apply(
+            lambda cve: (
+                f"https://nvd.nist.gov/vuln/detail/{cve}"
+                if cve and cve.lower() != "nan"
+                else ""
+            )
+        )
+
+    # Put the most important columns first
+    priority_columns = [
+        "No.",
+        "Vulnerability title",
+        "CVE ID",
+        "CISA KEV Status",
+        "CISA Mandated Action",
+        "CISA KEV Feed Link",
+        "NVD Details",
+    ]
+
+    # Keep only columns that actually exist, in the requested order
+    ordered_columns = [c for c in priority_columns if c in df_disp.columns]
+
+    # Add every remaining column after the priority columns
+    remaining_columns = [c for c in df_disp.columns if c not in ordered_columns]
+    df_disp = df_disp[ordered_columns + remaining_columns]
+
+    # Numeric formatting
+    fmt = {
+        key: value
+        for key, value in [
+            ("CVSS base score", "{:.1f}"),
+            ("Normalized Score", "{:.2f}"),
+        ]
+        if key in df_disp.columns
+    }
+
+    # Column display configuration
+    cfg = {
+        "No.": st.column_config.NumberColumn("No.", format="%d"),
+        "Vulnerability title": st.column_config.TextColumn("Vulnerability Title"),
+        "CVE ID": st.column_config.TextColumn("CVE ID"),
+        "CISA KEV Status": st.column_config.TextColumn("CISA KEV Status"),
+        "CISA Mandated Action": st.column_config.TextColumn("CISA Mandated Action"),
+        "CISA KEV Feed Link": st.column_config.LinkColumn(
+            "CISA KEV Feed Link",
+            display_text="Open CISA Portal",
+        ),
+        "NVD Details": st.column_config.LinkColumn(
+            "NVD Details",
+            display_text="Open NVD",
+        ),
+        "Normalized Score": st.column_config.NumberColumn(
+            "Normalized Score",
+            format="%.2f",
+        ),
+    }
+
+    st.dataframe(
+        df_disp.style.apply(get_severity_styles, axis=1).format(fmt, na_rep=""),
+        use_container_width=True,
+        height=650,
+        hide_index=True,
+        column_config=cfg,
+    )
 
 
-tab_new, tab_cisa, tab_all = st.tabs(["Taxonomy Applied Queue(TBD)", "CISA KEV Validated Queue", "Queue"])
+tab_option_a, tab_option_b, tab_option_c, tab_cisa, tab_all = st.tabs(
+    [
+        "Option A",
+        "Option B",
+        "Option C",
+        "CISA KEV Validated Queue",
+        "Queue",
+    ]
+)
 
-with tab_new:
-    if taxonomy == "Option B":
-        st.subheader("Option B: Content-Aware Prioritization View")
-        
-        if 'Normalized Score' in vuln_data.columns:
-            sorted_taxonomy_data = vuln_data.sort_values(by='Normalized Score', ascending=False)
-            render_queue(sorted_taxonomy_data)
-        else:
-            st.error("Engine failure: 'Normalized Score' column not found in dataset.")
+
+# -----------------------------
+# Option A
+# -----------------------------
+with tab_option_a:
+    st.subheader("Option A: Threat-Focused - In Development")
+
+    if taxonomy == "Option A":
+        st.info("Option A taxonomy queue is not connected yet.")
+        # render_queue(df_taxonomy_queue_a)
     else:
-        st.info("👈 Please select **'Option B'** (In development) ")
+        st.info("Please select **Option A** to view this queue.")
 
+
+# -----------------------------
+# Option B
+# -----------------------------
+with tab_option_b:
+    st.subheader("Option B: Balanced - In Development")
+
+    if taxonomy == "Option B":
+        if "Normalized Score" in vuln_data.columns:
+            sorted_taxonomy_data_b = vuln_data.sort_values(
+                by="Normalized Score",
+                ascending=False,
+            )
+            render_queue(sorted_taxonomy_data_b)
+        else:
+            st.error(
+                "Engine failure: 'Normalized Score' column not found in dataset."
+            )
+    else:
+        st.info("Please select **Option B** to view this queue.")
+
+
+# -----------------------------
+# Option C
+# -----------------------------
+with tab_option_c:
+    st.subheader("Option C: Business-Focused")
+
+    if taxonomy == "Option C":
+        st.info("Option C taxonomy queue is not connected yet.")
+          # render_queue(df_taxonomy_queue_c)
+    else:
+        st.info("Please select **Option C** to view this queue.")
+
+
+# -----------------------------
+# CISA KEV
+# -----------------------------
 with tab_cisa:
-    cisa_filtered_data = vuln_data[vuln_data['CISA KEV Status'] == "Confirmed - Active Exploitation"] if 'CISA KEV Status' in vuln_data.columns else pd.DataFrame()
+    st.subheader("CISA KEV Validated Queue")
+
+    if "CISA KEV Status" in vuln_data.columns:
+        cisa_filtered_data = vuln_data[
+            vuln_data["CISA KEV Status"] == "Confirmed - Active Exploitation"
+        ]
+    else:
+        cisa_filtered_data = pd.DataFrame()
+
     render_queue(cisa_filtered_data)
 
+
+# -----------------------------
+# All findings
+# -----------------------------
 with tab_all:
+    st.subheader("Queue")
     render_queue(vuln_data)
-
-
