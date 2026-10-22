@@ -1,0 +1,11957 @@
+﻿Task ID,Created At,Completed At,Last Modified,Name,Section/Column,Assignee,Assignee Email,Start Date,Due Date,Tags,Notes,Projects,Parent task,Blocked By (Dependencies),Blocking (Dependencies),Estimated time,Priority
+"1219369237422409",2026-10-09,,2026-10-09,Weekly Standup Meeting,Untitled section,,,2026-11-09,2026-11-09,,,Context-Aware Vulnuerability Prioritization Engine,,,,,Medium
+"1219369237422411",2026-10-09,,2026-10-09,Weekly Standup Meeting,Untitled section,,,,2026-11-16,,,Context-Aware Vulnuerability Prioritization Engine,,,,,Medium
+"1219367900680916",2026-10-09,,2026-10-22,Attend Remote Lecture,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-22,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219369237422413",2026-10-09,,2026-10-09,Weekly Standup Meeting,Untitled section,,,,2026-11-23,,,Context-Aware Vulnuerability Prioritization Engine,,,,,Medium
+"1219367663290720",2026-10-09,2026-10-19,2026-10-19,Weekly Standup Meeting,Untitled section,,,2026-10-19,2026-10-19,,,Context-Aware Vulnuerability Prioritization Engine,,,,,Medium
+"1219369237422405",2026-10-09,,2026-10-09,Weekly Standup Meeting,Untitled section,,,2026-10-26,2026-10-26,,,Context-Aware Vulnuerability Prioritization Engine,,,,,Medium
+"1219554858130080",2026-10-15,2026-10-15,2026-10-15,Read Compelling Presentations,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-15,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219369237422408",2026-10-09,,2026-10-09,Weekly Standup Meeting,Untitled section,,,2026-11-02,2026-11-02,,,Context-Aware Vulnuerability Prioritization Engine,,,,,Medium
+"1219356374005905",2026-10-09,,2026-10-20,I-1-6 Define Asset Criticality Tiers,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-20,,"Issue key: KAN-15
+
+Issue id: 10059
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 11:26
+
+Updated: 2026-09-30 22:05
+
+Last Viewed: 2026-10-01 15:38
+
+Resolved: 2026-09-30 19:44
+
+Due date: 2026-10-01 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: *Acceptance Criteria*
+
+* Criticality levels are defined (e.g., Low, Medium, High).
+* Classification criteria are documented.
+* Every asset is assigned a criticality tier.
+* Tier assignments are recorded in the inventory.
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 30/Sep/26 10:05 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;Asset_Criticality_and_Controls_Template.xlsx;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10125
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Costantinos Boyiatzis
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i00053:
+
+Custom field (Start date): 2026-09-30 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: Done
+
+Status category changed: 2026-09-30 19:44",Context-Aware Vulnuerability Prioritization Engine,Epic 3: Patch-Difficulty & Scoring Engine,,,,High
+"1219554858130083",2026-10-15,,2026-10-15,Read Compelling Presentations,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-15,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356454702113",2026-10-09,2026-10-09,2026-10-09,I-Re-scan Ubuntu VM,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-07,,"Issue key: KAN-148
+
+Issue id: 10256
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: myunnghee@uoguelph.ca
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-10-04 20:49
+
+Updated: 2026-10-07 13:26
+
+Last Viewed: 2026-10-07 13:26
+
+Resolved: 2026-10-07 13:26
+
+Due date: 2026-10-07 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000xw:
+
+Custom field (Start date): 2026-10-06 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-07 13:26",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,High
+"1219367900680918",2026-10-09,,2026-10-22,Attend Remote Lecture,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-22,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356454702114",2026-10-09,2026-10-09,2026-10-09,Technical Report Writing Template Release,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,,,"Issue key: KAN-147
+
+Issue id: 10255
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: myunnghee@uoguelph.ca
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-10-02 17:22
+
+Updated: 2026-10-02 17:22
+
+Last Viewed: 2026-10-02 17:22
+
+Resolved: 2026-10-02 17:22
+
+Due date: 2026-10-02 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: [https://uoguelphca-my.sharepoint.com/:w:/r/personal/myunghee_uoguelph_ca/Documents/CVPE_50%25%20TechnicalReport.docx?d=w3476d513f76f4648bdf0da32ec1977f0&csf=1&web=1&e=8Mnu1y|https://uoguelphca-my.sharepoint.com/:w:/r/personal/myunghee_uoguelph_ca/Documents/CVPE_50%25%20TechnicalReport.docx?d=w3476d513f76f4648bdf0da32ec1977f0&csf=1&web=1&e=8Mnu1y|smart-link]
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000xt:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-02 17:22",Context-Aware Vulnuerability Prioritization Engine,Epic 7: Final Report & Recorded Demo to Advisor,,,,
+"1219356454702115",2026-10-09,2026-10-09,2026-10-09,E-Automation Pipeline [Optional],Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-146
+
+Issue id: 10254
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: myunnghee@uoguelph.ca
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-10-02 12:06
+
+Updated: 2026-10-09 10:12
+
+Last Viewed: 2026-10-09 10:11
+
+Resolved: 2026-10-09 10:12
+
+Due date: 2026-10-09 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000xi:
+
+Custom field (Start date): 2026-10-07 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-09 10:12",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,Low
+"1219356454702116",2026-10-09,2026-10-09,2026-10-09,Export Jira data and import into Asana,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-09,,"Issue key: KAN-145
+
+Issue id: 10253
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: myunnghee@uoguelph.ca
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-10-01 17:59
+
+Updated: 2026-10-09 10:16
+
+Last Viewed: 2026-10-09 10:17
+
+Resolved: —
+
+Due date: 2026-10-09 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: Migrate all Jira data to Asana
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000xe:
+
+Custom field (Start date): 2026-10-09 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-10-01 18:00",Context-Aware Vulnuerability Prioritization Engine,,,,,Low
+"1219356454702117",2026-10-09,2026-10-09,2026-10-09,"Implement 1st Prototype for NVD API Integration, Asset Data Loading, Risk Weight Tuning Options",Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-144
+
+Issue id: 10252
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: myunnghee@uoguelph.ca
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-10-01 16:45
+
+Updated: 2026-10-01 17:24
+
+Last Viewed: 2026-10-04 20:56
+
+Resolved: 2026-10-01 16:53
+
+Due date: 2026-10-01 0:00
+
+Votes: 0
+
+Labels: Execution
+
+Description: !image-20261001-205450.png|width=667,alt=""image-20261001-205450.png""!
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 01/Oct/26 5:00 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;image-20261001-205450.png;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10127
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000x2:
+
+Custom field (Start date): 2026-10-01 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: 01/Oct/26 4:59 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;I have verified the data fetching pipeline and created the initial layout for SOC Dashboard. 
+
+Please reference this task as our foundational Proof of Concept (PoC).
+
+Please note that this is an early prototype, so the codebase and UI layout will continuously change as we refine our risk-scoring logic.[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601]
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10248
+
+Parent key: KAN-140
+
+Parent summary: Epic 5-2: SOC Dashboard
+
+Status category: Done
+
+Status category changed: 2026-10-01 16:53",Context-Aware Vulnuerability Prioritization Engine,Epic 5-2: SOC Dashboard,,,,High
+"1219356454702119",2026-10-09,2026-10-09,2026-10-09,Additional Injection Testing - WinSvr VM,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-142
+
+Issue id: 10250
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: myunnghee@uoguelph.ca
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-10-01 12:27
+
+Updated: 2026-10-04 20:57
+
+Last Viewed: 2026-10-04 20:57
+
+Resolved: 2026-10-04 20:50
+
+Due date: 2026-10-04 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000wk:
+
+Custom field (Start date): 2026-10-02 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-04 20:50",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,High
+"1219356454702120",2026-10-09,,2026-10-09,Epic 5-2: SOC Dashboard,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-18,,"Issue key: KAN-140
+
+Issue id: 10248
+
+Issue Type: Epic
+
+Status: In Progress
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: myunnghee@uoguelph.ca
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-10-01 11:31
+
+Updated: 2026-10-07 13:42
+
+Last Viewed: 2026-10-03 16:19
+
+Resolved: —
+
+Due date: 2026-11-18 0:00
+
+Votes: 0
+
+Labels: Validation
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): KAN-60
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000vg:
+
+Custom field (Start date): 2026-10-08 0:00
+
+Team Id: 517803fe-045c-455f-ad23-b913ebfb8d14
+
+Team Name: Context-Aware Vulnerability Prioritization Engine
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-10-01 11:32",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356502776793",2026-10-09,2026-10-19,2026-10-19,E-SOC Dashboard - Alpha Version,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-17,,"Issue key: KAN-107
+
+Issue id: 10183
+
+Issue Type: Story
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 19:51
+
+Updated: 2026-09-24 23:28
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-18 0:00
+
+Votes: 0
+
+Labels: Execution
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000o7:
+
+Custom field (Start date): 2026-11-05 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10104
+
+Parent key: KAN-60
+
+Parent summary: Epic 5-1: Scoring Model Refinement
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 19:51",Context-Aware Vulnuerability Prioritization Engine,Epic 5-2: SOC Dashboard,,,,
+"1219356454702121",2026-10-09,2026-10-09,2026-10-09,Asset Criticality Controls Template,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-01,,"Issue key: KAN-139
+
+Issue id: 10247
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: myunnghee@uoguelph.ca
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-30 22:07
+
+Updated: 2026-10-01 15:37
+
+Last Viewed: 2026-10-02 15:56
+
+Resolved: 2026-10-01 15:37
+
+Due date: 2026-10-01 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 01/Oct/26 3:37 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;Asset_Criticality_and_Controls_Template.xlsx;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10126
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000v8:
+
+Custom field (Start date): 2026-09-30 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-01 15:37",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,
+"1219356454702129",2026-10-09,2026-10-09,2026-10-09,I-1-6 Review OpenVAS Scan XML Data for Target Assets,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-128
+
+Issue id: 10236
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Lowest
+
+Resolution: Done
+
+Assignee: cboyiatz@uoguelph.ca
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-28 23:08
+
+Updated: 2026-09-30 15:43
+
+Last Viewed: 2026-09-30 15:32
+
+Resolved: 2026-09-30 15:34
+
+Due date: 2026-09-30 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: OpenVAS report XML files as well.
+
+Watchers: Costantinos Boyiatzis
+
+Watchers: —
+
+Watchers Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 29/Sep/26 11:33 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;report-20987c23-e66f-4103-b50c-64f82c4c026a.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10098
+
+Attachment: 29/Sep/26 11:33 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;report-20b4791c-124e-4887-ac79-7034b0496569.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10101
+
+Attachment: 29/Sep/26 11:33 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;report-24528aa4-4b94-44a0-a2ce-7184c483e7cc.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10103
+
+Attachment: 29/Sep/26 11:33 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;report-ac53f8da-ea43-41d8-821e-608464665f21.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10100
+
+Attachment: 29/Sep/26 11:33 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;report-bb7c5ad0-0d64-42d9-af7b-492d66e6492d.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10105
+
+Attachment: 29/Sep/26 11:33 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;report-d75db231-9410-4ac0-ab42-f8817bae2257.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10099
+
+Attachment: 29/Sep/26 11:33 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;report-ead145e5-f0a6-494c-8b37-09a9b59c7d94.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10102
+
+Attachment: 29/Sep/26 11:33 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;report-f8806de2-25c5-45dc-9171-3448550c3eaa.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10104
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-674e4cf3-bfc9-4fc3-b29e-1e8fc29d34a6.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10094
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-78211d6f-9b37-42de-961d-1f464e36e562.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10091
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-9d1ac035-5a3c-4435-8973-b1c94627a33d(1).xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10089
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-9d1ac035-5a3c-4435-8973-b1c94627a33d.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10088
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-9fc61fbf-acdf-4d92-8d25-37298d7dd596.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10087
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-afb8d9c8-9bde-4b7b-a32c-d397483102fd.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10092
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-b93cb612-c8a3-48d0-a264-25074b307489(1).xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10090
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-b93cb612-c8a3-48d0-a264-25074b307489(2).xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10095
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-b93cb612-c8a3-48d0-a264-25074b307489.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10093
+
+Attachment: 28/Sep/26 11:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-f75211a6-9455-4f12-b769-feac0a96f015.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10096
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000t0:
+
+Custom field (Start date): 2026-09-29 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: 30/Sep/26 3:30 PM;712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601;These are the report outputs?
+
+Comment: 30/Sep/26 3:30 PM;712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601;Would this be like the v0 test set?
+
+Comment: 30/Sep/26 3:33 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] Yeah. The ones that start with ""report"" are the report files.
+
+Comment: 30/Sep/26 3:43 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] This might be useful for reviewing the dataset structure, but I think I need to inject more vulnerabilities into the VMs or manipulate the data.  As you can see, the OpenVas results won't show that the system is weak enough to warrant *scoring.*
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: Done
+
+Status category changed: 2026-09-30 15:34",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,
+"1219356454702130",2026-10-09,2026-10-09,2026-10-09,I-1-2 Verify Nessus Free License Activation Code,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-01,,"Issue key: KAN-127
+
+Issue id: 10235
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: cboyiatz@uoguelph.ca
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-28 18:21
+
+Updated: 2026-10-07 13:06
+
+Last Viewed: 2026-10-07 13:28
+
+Resolved: 2026-10-07 13:06
+
+Due date: 2026-10-01 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Costantinos Boyiatzis
+
+Watchers: —
+
+Watchers Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Costantinos Boyiatzis
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000sn:
+
+Custom field (Start date): 2026-09-30 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: 07/Oct/26 1:06 PM;712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601;did not work
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-07 13:06",Context-Aware Vulnuerability Prioritization Engine,"Epic 1: Tool Setup & Config, Threat Modelling",,,,
+"1219356454702131",2026-10-09,2026-10-17,2026-10-17,I-1-1 [Risk Management] Setup VMs (Backup Setup),Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-01,,"Issue key: KAN-126
+
+Issue id: 10234
+
+Issue Type: Task
+
+Status: In Progress
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: —
+
+Assignee: cboyiatz@uoguelph.ca
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-28 17:59
+
+Updated: 2026-10-01 15:30
+
+Last Viewed: 2026-10-01 15:23
+
+Resolved: —
+
+Due date: 2026-10-01 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: Kali VM RAM *8GB*
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): KAN-94
+
+Attachment: 28/Sep/26 11:17 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;DVWA Setup - Ubuntu 32bit.docx;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10097
+
+Attachment: 28/Sep/26 5:59 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;Virtual Environment Setup.pdf;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10075
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Myunghee
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000sf:
+
+Custom field (Start date): 2026-09-25 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: In Progress
+
+Status category changed: 2026-09-28 18:03",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356454702132",2026-10-09,,2026-10-09,I-1-2 [Risk Management] Configure GVM Environment (Backup Setup),Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-02,,"Issue key: KAN-125
+
+Issue id: 10233
+
+Issue Type: Task
+
+Status: In Progress
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Low
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-28 17:35
+
+Updated: 2026-10-04 16:19
+
+Last Viewed: 2026-10-04 20:54
+
+Resolved: —
+
+Due date: 2026-10-02 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 28/Sep/26 5:36 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;GVM Setup.pdf;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10074
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000s7:
+
+Custom field (Start date): 2026-10-02 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: 28/Sep/26 5:49 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;*Setup GVM Environment for Cross-Backup.*
+
+Due to delays in receiving the access code for the free version of Nessus Essentials, we are proceeding with Greenbone only at this point.
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-28 17:43",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356454702133",2026-10-09,2026-10-09,2026-10-09,Share Gantt Chart,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-09-28,,"Issue key: KAN-124
+
+Issue id: 10232
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-28 15:14
+
+Updated: 2026-09-28 15:17
+
+Last Viewed: —
+
+Resolved: 2026-09-28 15:17
+
+Due date: 2026-09-28 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 28/Sep/26 3:14 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;plans_myunghee_uoguelph_ca_28092026.png;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10073
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000rz:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: 28/Sep/26 3:17 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] [https://6560sec02.atlassian.net/jira/plans/1/scenarios/1/timeline?isPlanShare=true&atlOrigin=eyJpIjoiZGJkYmEyYzk3NjUzNDJhNTlkYTU5OTQ5YmQxNzVhOTkiLCJwIjoiaiJ9|https://6560sec02.atlassian.net/jira/plans/1/scenarios/1/timeline?isPlanShare=true&atlOrigin=eyJpIjoiZGJkYmEyYzk3NjUzNDJhNTlkYTU5OTQ5YmQxNzVhOTkiLCJwIjoiaiJ9|smart-link] 
+
+I looked into how to grant admin permissions…only one person can have admin permissions. I attached the PNG file and also sent it via the sharing feature. If you haven't received it, you can view it at this link; it will update if there are any changes.
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-28 15:17",Context-Aware Vulnuerability Prioritization Engine,"Epic 1: Tool Setup & Config, Threat Modelling",,,,
+"1219356454702134",2026-10-09,2026-10-09,2026-10-09,Make github library,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-09-30,,"Issue key: KAN-123
+
+Issue id: 10231
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: Done
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Costantinos Boyiatzis
+
+Reporter Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Creator: Costantinos Boyiatzis
+
+Creator Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Created: 2026-09-28 14:31
+
+Updated: 2026-09-30 14:48
+
+Last Viewed: 2026-09-30 15:03
+
+Resolved: 2026-09-30 14:48
+
+Due date: 2026-09-30 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Costantinos Boyiatzis
+
+Watchers: —
+
+Watchers Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 30/Sep/26 12:01 AM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;extract.py;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10118
+
+Attachment: 30/Sep/26 12:16 AM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;image-20260930-041600.png;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10123
+
+Attachment: 30/Sep/26 12:01 AM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;inspect_xml.py;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10121
+
+Attachment: 30/Sep/26 12:01 AM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;openvas_pipeline.py;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10117
+
+Attachment: 30/Sep/26 12:01 AM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;requirements.txt;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10122
+
+Attachment: 30/Sep/26 12:01 AM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;run_nvd.py;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10119
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000rr:
+
+Custom field (Start date): 2026-09-30 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: 29/Sep/26 11:32 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;GitHub ID for this project: *eaglemundle*
+
+Please invite me![~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601]
+
+Comment: 30/Sep/26 12:16 AM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;The Python code for extracting CVEs from OpenVAS-scanned reports and checking the NVD API connection is verified and ready. Please integrate this into the library for further testing.[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] 
+
+!image-20260930-041600.png|width=442,alt=""image-20260930-041600.png""!
+
+_Note on Environment Setup:_
+You will need your own NVD API key to run it. If you don't have one yet, you can request it here: [https://nvd.nist.gov/developers/request-an-api-key|https://nvd.nist.gov/developers/request-an-api-key] 
+
+Only 1 CVE was extracted. I need to make the VM more vulnerable for better testing.
+
+Comment: 30/Sep/26 2:45 PM;712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601;[~accountid:712020:8b19361f-8358-4e16-bebe-109221f5b4ac] sent an invite
+
+Comment: 30/Sep/26 2:47 PM;712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601;[~accountid:712020:8b19361f-8358-4e16-bebe-109221f5b4ac] made a request for this
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-30 14:48",Context-Aware Vulnuerability Prioritization Engine,Epic 3: Patch-Difficulty & Scoring Engine,,,,
+"1219356454702135",2026-10-09,2026-10-09,2026-10-09,I-1-1 Setup VM - DVWA,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-09-28,,"Issue key: KAN-122
+
+Issue id: 10198
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-25 22:55
+
+Updated: 2026-09-28 23:03
+
+Last Viewed: —
+
+Resolved: 2026-09-28 23:03
+
+Due date: 2026-09-28 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;DVWA Setup - Ubuntu 32bit.pdf;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10076
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000rj:
+
+Custom field (Start date): 2026-09-28 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-28 23:03",Context-Aware Vulnuerability Prioritization Engine,"Epic 1: Tool Setup & Config, Threat Modelling",,,,
+"1219356454702136",2026-10-09,,2026-10-09,Contingency Buffer - MJ,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-12-02,,"Issue key: KAN-120
+
+Issue id: 10196
+
+Issue Type: Task
+
+Status: In Review
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 22:45
+
+Updated: 2026-09-29 21:03
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-12-02 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000r7:
+
+Custom field (Start date): 2026-12-02 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 22:46",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356502776786",2026-10-09,,2026-10-09,W11 Work Updates & Open Q&A,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-18,,"Issue key: KAN-115
+
+Issue id: 10191
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 21:17
+
+Updated: 2026-09-24 22:32
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-19 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000q8:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 21:28",Context-Aware Vulnuerability Prioritization Engine,Weekly Work Updates to Advisor,,,,
+"1219356502776787",2026-10-09,2026-10-09,2026-10-09,I-Ingestion Pipeline,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-07,,"Issue key: KAN-114
+
+Issue id: 10190
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 20:49
+
+Updated: 2026-10-07 13:26
+
+Last Viewed: 2026-10-07 13:26
+
+Resolved: 2026-10-07 13:26
+
+Due date: 2026-10-07 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000pv:
+
+Custom field (Start date): 2026-10-02 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10101
+
+Parent key: KAN-57
+
+Parent summary: Epic 2: Vulnerability Ingestion Pipeline Built
+
+Status category: Done
+
+Status category changed: 2026-10-07 13:26",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,
+"1219356502776788",2026-10-09,,2026-10-09,W10 Work Updates & Open Q&A,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-11,,"Issue key: KAN-113
+
+Issue id: 10189
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 20:39
+
+Updated: 2026-09-24 22:32
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-12 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000pp:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 21:18",Context-Aware Vulnuerability Prioritization Engine,Weekly Work Updates to Advisor,,,,
+"1219367220008583",2026-10-09,,2026-10-09,W09 Work Updates & Open Q&A,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-04,,"Issue key: KAN-113
+
+Issue id: 10189
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 20:39
+
+Updated: 2026-09-24 22:32
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-12 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000pp:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 21:18",Context-Aware Vulnuerability Prioritization Engine,Weekly Work Updates to Advisor,,,,
+"1219356502776789",2026-10-09,,2026-10-09,W08 Work Updates & Open Q&A,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-28,,"Issue key: KAN-112
+
+Issue id: 10188
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 20:38
+
+Updated: 2026-09-24 22:32
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-10-29 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000pb:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 20:38",Context-Aware Vulnuerability Prioritization Engine,Weekly Work Updates to Advisor,,,,
+"1219367220008579",2026-10-09,,2026-10-21,W07 Work Updates & Open Q&A,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-21,,"Issue key: KAN-112
+
+Issue id: 10188
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 20:38
+
+Updated: 2026-09-24 22:32
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-10-29 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000pb:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 20:38",Context-Aware Vulnuerability Prioritization Engine,Weekly Work Updates to Advisor,,,,
+"1219356502776791",2026-10-09,,2026-10-09,V-Final Demo Recording/Editing,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-11-30,,"Issue key: KAN-109
+
+Issue id: 10185
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 19:58
+
+Updated: 2026-09-24 23:57
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-30 0:00
+
+Votes: 0
+
+Labels: Validation
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000oh:
+
+Custom field (Start date): 2026-11-26 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10106
+
+Parent key: KAN-62
+
+Parent summary: Epic 6: Packaging, Documentation & Full-Run
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 19:59",Context-Aware Vulnuerability Prioritization Engine,Epic 7: Final Report & Recorded Demo to Advisor,,,,
+"1219369237422415",2026-10-09,,2026-10-09,Weekly Standup Meeting,Untitled section,,,,2026-11-30,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356502776792",2026-10-09,,2026-10-09,V-Tool repo with docs,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-25,,"Issue key: KAN-108
+
+Issue id: 10184
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 19:54
+
+Updated: 2026-09-24 23:57
+
+Last Viewed: 2026-10-01 15:28
+
+Resolved: —
+
+Due date: 2026-11-25 0:00
+
+Votes: 0
+
+Labels: Validation
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000og:
+
+Custom field (Start date): 2026-11-19 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10106
+
+Parent key: KAN-62
+
+Parent summary: Epic 6: Packaging, Documentation & Full-Run
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 19:54",Context-Aware Vulnuerability Prioritization Engine,"Epic 6: Packaging, Documentation & Full-Run",,,,
+"1219356502776794",2026-10-09,,2026-10-09,Contingency Buffer - CB,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-12-02,,"Issue key: KAN-106
+
+Issue id: 10182
+
+Issue Type: Task
+
+Status: In Review
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 19:42
+
+Updated: 2026-09-24 23:18
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-12-02 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000o5:
+
+Custom field (Start date): 2026-12-01 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 22:45",Context-Aware Vulnuerability Prioritization Engine,"Epic 6: Packaging, Documentation & Full-Run",,,,
+"1219356502776795",2026-10-09,,2026-10-09,E-Scoring Engine V2,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-11-18,,"Issue key: KAN-105
+
+Issue id: 10181
+
+Issue Type: Story
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 19:32
+
+Updated: 2026-09-24 23:28
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-18 0:00
+
+Votes: 0
+
+Labels: Execution
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000nv:
+
+Custom field (Start date): 2026-11-05 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10104
+
+Parent key: KAN-60
+
+Parent summary: Epic 5-1: Scoring Model Refinement
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 19:32",Context-Aware Vulnuerability Prioritization Engine,Epic 5-1: Scoring Model Refinement,,,,
+"1219356502776796",2026-10-09,,2026-10-09,E-Validation Results,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-11-04,,"Issue key: KAN-104
+
+Issue id: 10180
+
+Issue Type: Story
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 19:31
+
+Updated: 2026-09-24 23:27
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-04 0:00
+
+Votes: 0
+
+Labels: Execution
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000ns:
+
+Custom field (Start date): 2026-10-22 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10103
+
+Parent key: KAN-59
+
+Parent summary: Epic 4: Sensitivity Analysis & Validation
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 19:31",Context-Aware Vulnuerability Prioritization Engine,Epic 4: Sensitivity Analysis & Validation,,,,
+"1219356502776797",2026-10-09,,2026-10-09,E-Sensitivity Anaysis,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-04,,"Issue key: KAN-103
+
+Issue id: 10179
+
+Issue Type: Story
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 19:30
+
+Updated: 2026-09-24 23:27
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-04 0:00
+
+Votes: 0
+
+Labels: Execution
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000nh:
+
+Custom field (Start date): 2026-10-22 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10103
+
+Parent key: KAN-59
+
+Parent summary: Epic 4: Sensitivity Analysis & Validation
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 19:31",Context-Aware Vulnuerability Prioritization Engine,Epic 4: Sensitivity Analysis & Validation,,,,
+"1219356502776798",2026-10-09,,2026-10-19,E-Prioritized List V1,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-23,,"Issue key: KAN-102
+
+Issue id: 10178
+
+Issue Type: Story
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 19:05
+
+Updated: 2026-10-07 13:35
+
+Last Viewed: 2026-10-07 13:34
+
+Resolved: —
+
+Due date: 2026-10-09 0:00
+
+Votes: 0
+
+Labels: Execution
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000nd:
+
+Custom field (Start date): 2026-10-05 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10102
+
+Parent key: KAN-58
+
+Parent summary: Epic 3: Patch-Difficulty & Scoring Engine
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 19:06",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,
+"1219356502776799",2026-10-09,,2026-10-21,E-Scoring Engine V1 - Minimum Viable Product - Option A taxonomy,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-21,,"Issue key: KAN-101
+
+Issue id: 10177
+
+Issue Type: Story
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 19:02
+
+Updated: 2026-10-02 15:53
+
+Last Viewed: 2026-10-01 17:06
+
+Resolved: —
+
+Due date: 2026-10-21 0:00
+
+Votes: 0
+
+Labels: Execution
+
+Description: —
+
+Watchers: Costantinos Boyiatzis
+
+Watchers: Myunghee
+
+Watchers Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000n1:
+
+Custom field (Start date): 2026-10-05 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10102
+
+Parent key: KAN-58
+
+Parent summary: Epic 3: Patch-Difficulty & Scoring Engine
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 19:03",Context-Aware Vulnuerability Prioritization Engine,Epic 3: Patch-Difficulty & Scoring Engine,,,,
+"1219657215585408",2026-10-19,,2026-10-21,E-Scoring Engine V1 - Minimum Viable Product - Option B taxonomy,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-21,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356502776800",2026-10-09,2026-10-09,2026-10-09,I-1-5 Setup NVD API & Verify CVE Extraction Pipeline,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-09-29,,"Issue key: KAN-100
+
+Issue id: 10176
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 18:59
+
+Updated: 2026-09-29 23:56
+
+Last Viewed: 2026-09-30 17:27
+
+Resolved: 2026-09-29 23:56
+
+Due date: 2026-09-29 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 29/Sep/26 11:53 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;inspect_xml.py;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10115
+
+Attachment: 29/Sep/26 11:53 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;openvas_pipeline.py;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10116
+
+Attachment: 29/Sep/26 11:53 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;run_nvd.py;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10114
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000mw:
+
+Custom field (Start date): 2026-09-29 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: Done
+
+Status category changed: 2026-09-29 23:56",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,High
+"1219356502776801",2026-10-09,2026-10-09,2026-10-09,I-Update Project Charter V3.0,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-09-24,,"Issue key: KAN-99
+
+Issue id: 10175
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 10:21
+
+Updated: 2026-09-24 23:02
+
+Last Viewed: —
+
+Resolved: 2026-09-24 10:46
+
+Due date: 2026-09-24 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description:  to incorporate the professor's feedback
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 24/Sep/26 10:46 AM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;Project Charter_CIS6560-02_V3.docx;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10035
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000mj:
+
+Custom field (Start date): 2026-09-24 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-24 10:46",Context-Aware Vulnuerability Prioritization Engine,"Epic 1: Tool Setup & Config, Threat Modelling",,,,Medium
+"1219356502776802",2026-10-09,2026-10-09,2026-10-09,I-Add professor as a viewer,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-01,,"Issue key: KAN-98
+
+Issue id: 10174
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: —
+
+Assignee Id: —
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-24 9:42
+
+Updated: 2026-10-01 17:21
+
+Last Viewed: 2026-10-01 17:20
+
+Resolved: 2026-10-01 17:20
+
+Due date: 2026-10-01 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000md:
+
+Custom field (Start date): 2026-10-01 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: Done
+
+Status category changed: 2026-10-01 17:20",Context-Aware Vulnuerability Prioritization Engine,"Epic 1: Tool Setup & Config, Threat Modelling",,,,Low
+"1219356502776803",2026-10-09,2026-10-09,2026-10-09,I-Gantt Chart,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-09-24,,"Issue key: KAN-97
+
+Issue id: 10141
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-22 18:20
+
+Updated: 2026-09-28 15:02
+
+Last Viewed: —
+
+Resolved: 2026-09-24 22:48
+
+Due date: 2026-09-24 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 28/Sep/26 3:00 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;plans_myunghee_uoguelph_ca_28092026.png;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10072
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000lz:
+
+Custom field (Start date): 2026-09-22 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: 28/Sep/26 3:02 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] Exported Gantt Chart
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-24 22:48",Context-Aware Vulnuerability Prioritization Engine,"Epic 1: Tool Setup & Config, Threat Modelling",,,,Medium
+"1219554858130075",2026-10-15,2026-10-19,2026-10-19,EDA,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-17,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356502776804",2026-10-09,,2026-10-16,Review Risk Register,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-16,,"Issue key: KAN-96
+
+Issue id: 10140
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Low
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-22 17:36
+
+Updated: 2026-10-07 13:33
+
+Last Viewed: 2026-10-07 13:45
+
+Resolved: —
+
+Due date: 2026-10-16 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: Review the Risk Register. The request was to build a register with at least 5 identified risks. 7 risks have already been added. Unexpected problems will arise during the actual project.
+
+* *Add at least 1 more risk.*
+* *Add more risks during the engine development periods(W5-W7), if needed.*
+* Link to the Risk Register: [https://home.atlassian.com/o/90d94f02-2480-45d1-a3a6-a2ec614a7345/s/c67b5699-ca25-4b3e-826e-e1786a8d18d2/project/6560S-1/risks|https://home.atlassian.com/o/90d94f02-2480-45d1-a3a6-a2ec614a7345/s/c67b5699-ca25-4b3e-826e-e1786a8d18d2/project/6560S-1/risks|smart-link]
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000lr:
+
+Custom field (Start date): 2026-10-15 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 23:24",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356502776805",2026-10-09,2026-10-09,2026-10-09,I-Update Project Charter V2.0,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-09-23,,"Issue key: KAN-95
+
+Issue id: 10139
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Low
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Costantinos Boyiatzis
+
+Reporter Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Creator: Costantinos Boyiatzis
+
+Creator Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Created: 2026-09-22 16:20
+
+Updated: 2026-10-01 17:04
+
+Last Viewed: 2026-10-01 17:04
+
+Resolved: 2026-09-23 18:28
+
+Due date: 2026-09-23 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 23/Sep/26 2:40 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;Project Charter_CIS6560-02_V2.docx;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10002
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Costantinos Boyiatzis
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000lj:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: 23/Sep/26 2:42 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601]Please review and give me feedback.
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-23 18:28",Context-Aware Vulnuerability Prioritization Engine,"Epic 1: Tool Setup & Config, Threat Modelling",,,,
+"1219356502776806",2026-10-09,2026-10-09,2026-10-09,I-1-1 Setup VMs,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-09-25,,"Issue key: KAN-94
+
+Issue id: 10138
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-22 16:08
+
+Updated: 2026-09-28 17:59
+
+Last Viewed: —
+
+Resolved: 2026-09-25 20:24
+
+Due date: 2026-09-25 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: There’s too much to sort out all at once. Let’s break it down into smaller chunks.
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): KAN-126
+
+Outward issue link (Cloners): —
+
+Attachment: 27/Sep/26 10:10 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;Virtual Environment Setup.pdf;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10070
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Costantinos Boyiatzis
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000lb:
+
+Custom field (Start date): 2026-09-25 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: 22/Sep/26 4:16 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] There’s too much to sort out all at once; let’s break it down into smaller chunks. I'm considering whether running a VM inside Docker is the right architectural approach.
+
+Comment: 22/Sep/26 10:25 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601]  {color:#bf2600}*Pending this.*{color} We should run Docker inside Kali(Attacker) VM, not host OS.
+
+Comment: 24/Sep/26 6:40 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] set it up first. 
+
+*0.VMware Workstation*
+
+*1. 4VMs (Kali, Ubuntu, Win7, Win Svr 2016) - The Win7 download take long time.*
+
+2. Docker and DVWA(actually within Ubuntu) setting will do later.
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: Done
+
+Status category changed: 2026-09-25 20:24",Context-Aware Vulnuerability Prioritization Engine,"Epic 1: Tool Setup & Config, Threat Modelling",,,,High
+"1219356502776807",2026-10-09,2026-10-09,2026-10-09,V-Technical Report Template,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-09-27,,"Issue key: KAN-88
+
+Issue id: 10132
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-22 0:15
+
+Updated: 2026-09-28 13:27
+
+Last Viewed: —
+
+Resolved: 2026-09-28 13:06
+
+Due date: 2026-09-27 0:00
+
+Votes: 0
+
+Labels: Validation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000jz:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: 25/Sep/26 8:27 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] I cannot find template, where is the shared file to add? I should start to write about configurations for VMs and GVM…etc.
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-28 13:06",Context-Aware Vulnuerability Prioritization Engine,"Epic 6: Packaging, Documentation & Full-Run",,,,
+"1219356502776808",2026-10-09,2026-10-09,2026-10-09,I-1-2 Configure GVM or Nessus Essentials,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-09-28,,"Issue key: KAN-86
+
+Issue id: 10130
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-22 0:14
+
+Updated: 2026-09-28 18:00
+
+Last Viewed: —
+
+Resolved: 2026-09-28 17:34
+
+Due date: 2026-09-28 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: *Acceptance Criteria*
+
+* -Open-source scanner is installed and operational.-
+* -All lab hosts are within scan scope.-
+* -Test scan completes successfully.-
+* Scan configuration is documented.
+
+{color:#ff5630}Downloading GVM feeds is taking a long time, and the delivery of activation codes for the free version of Nessus Essentials is also being delayed.{color}
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000jj:
+
+Custom field (Start date): 2026-09-27 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: Done
+
+Status category changed: 2026-09-28 17:34",Context-Aware Vulnuerability Prioritization Engine,"Epic 1: Tool Setup & Config, Threat Modelling",,,,
+"1219356502776809",2026-10-09,2026-10-09,2026-10-09,CB - W10 Weekly Documentation for Technical Report,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-11-13,,"Issue key: KAN-82
+
+Issue id: 10126
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:45
+
+Updated: 2026-09-24 22:27
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-13 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000iv:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219366516509706",2026-10-09,2026-10-09,2026-10-09,Weekly Documentation for Technical Report,Untitled section,,,,,,"Issue key: KAN-82
+
+Issue id: 10126
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:45
+
+Updated: 2026-09-24 22:27
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-13 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000iv:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219355635033773",2026-10-09,2026-10-09,2026-10-09,MJ - W10 Weekly Documentation for Technical Report,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-13,,"Issue key: KAN-82
+
+Issue id: 10126
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:45
+
+Updated: 2026-09-24 22:27
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-13 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000iv:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219356502776814",2026-10-09,,2026-10-10,MJ - W5 Weekly Documentation for Technical Report,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-10,,"Issue key: KAN-77
+
+Issue id: 10121
+
+Issue Type: Task
+
+Status: In Progress
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:43
+
+Updated: 2026-10-07 21:37
+
+Last Viewed: 2026-10-07 21:36
+
+Resolved: —
+
+Due date: 2026-10-09 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: * update VM setup - SEEDUbuntu-16.04-32bit
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000hr:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:58",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219355635033758",2026-10-09,,2026-10-09,CB - W5 Weekly Documentation for Technical Report,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-09,,"Issue key: KAN-77
+
+Issue id: 10121
+
+Issue Type: Task
+
+Status: In Progress
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:43
+
+Updated: 2026-10-07 21:37
+
+Last Viewed: 2026-10-07 21:36
+
+Resolved: —
+
+Due date: 2026-10-09 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: * update VM setup - SEEDUbuntu-16.04-32bit
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000hr:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:58",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219356502776815",2026-10-09,,2026-10-09,CB - W4 Weekly Documentation for Technical Report,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-02,,"Issue key: KAN-76
+
+Issue id: 10120
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:43
+
+Updated: 2026-10-04 16:19
+
+Last Viewed: 2026-10-02 17:15
+
+Resolved: 2026-10-04 16:19
+
+Due date: 2026-10-02 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Costantinos Boyiatzis
+
+Watchers: Myunghee
+
+Watchers Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000hj:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: 02/Oct/26 3:41 PM;712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601;Edited the weekly reports file with week 4
+
+Comment: 02/Oct/26 5:19 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[https://uoguelphca-my.sharepoint.com/:w:/r/personal/myunghee_uoguelph_ca/Documents/CVPE_50%25%20TechnicalReport.docx?d=w3476d513f76f4648bdf0da32ec1977f0&csf=1&web=1&e=ercpW1|https://uoguelphca-my.sharepoint.com/:w:/r/personal/myunghee_uoguelph_ca/Documents/CVPE_50%25%20TechnicalReport.docx?d=w3476d513f76f4648bdf0da32ec1977f0&csf=1&web=1&e=ercpW1|smart-link][~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] 
+
+Set aside time every week to organize the material for technical report. You can do it on your own, no meeting. Just input what you've done. 
+
+I’ll be able to make sense of it if I color-code things: black for items that don't need any more changes, orange for those currently being revised, and red for things I just threw in without much thought.
+
+Comment: 04/Oct/26 4:19 PM;712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601;Updated the document on outlook adding week 4 progress
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-04 16:19",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219355635033771",2026-10-09,,2026-10-09,MJ - W9 Weekly Documentation for Technical Report,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-06,,"Issue key: KAN-81
+
+Issue id: 10125
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:45
+
+Updated: 2026-09-24 22:26
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-06 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000in:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219356502776810",2026-10-09,,2026-10-09,CB - W9 Weekly Documentation for Technical Report,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-11-06,,"Issue key: KAN-81
+
+Issue id: 10125
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:45
+
+Updated: 2026-09-24 22:26
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-06 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000in:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219356502776811",2026-10-09,,2026-10-09,CB - W8 Weekly Documentation for Technical Report,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-30,,"Issue key: KAN-80
+
+Issue id: 10124
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:44
+
+Updated: 2026-09-24 22:26
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-10-30 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000if:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219355635033769",2026-10-09,,2026-10-09,MJ - W8 Weekly Documentation for Technical Report,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-30,,"Issue key: KAN-80
+
+Issue id: 10124
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:44
+
+Updated: 2026-09-24 22:26
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-10-30 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000if:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219356502776812",2026-10-09,,2026-10-09,CB - W7 Weekly Documentation for Technical Report,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-23,,"Issue key: KAN-79
+
+Issue id: 10123
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:44
+
+Updated: 2026-09-24 22:26
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-10-23 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000i7:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:59",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219355635033767",2026-10-09,,2026-10-09,MJ - W7 Weekly Documentation for Technical Report,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-23,,"Issue key: KAN-79
+
+Issue id: 10123
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:44
+
+Updated: 2026-09-24 22:26
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-10-23 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000i7:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:59",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219355635033755",2026-10-09,2026-10-09,2026-10-09,MJ - W4 Weekly Documentation for Technical Report,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-02,,"Issue key: KAN-76
+
+Issue id: 10120
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 23:43
+
+Updated: 2026-10-04 16:19
+
+Last Viewed: 2026-10-02 17:15
+
+Resolved: 2026-10-04 16:19
+
+Due date: 2026-10-02 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Costantinos Boyiatzis
+
+Watchers: Myunghee
+
+Watchers Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000hj:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: 02/Oct/26 3:41 PM;712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601;Edited the weekly reports file with week 4
+
+Comment: 02/Oct/26 5:19 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;[https://uoguelphca-my.sharepoint.com/:w:/r/personal/myunghee_uoguelph_ca/Documents/CVPE_50%25%20TechnicalReport.docx?d=w3476d513f76f4648bdf0da32ec1977f0&csf=1&web=1&e=ercpW1|https://uoguelphca-my.sharepoint.com/:w:/r/personal/myunghee_uoguelph_ca/Documents/CVPE_50%25%20TechnicalReport.docx?d=w3476d513f76f4648bdf0da32ec1977f0&csf=1&web=1&e=ercpW1|smart-link][~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601] 
+
+Set aside time every week to organize the material for technical report. You can do it on your own, no meeting. Just input what you've done. 
+
+I’ll be able to make sense of it if I color-code things: black for items that don't need any more changes, orange for those currently being revised, and red for things I just threw in without much thought.
+
+Comment: 04/Oct/26 4:19 PM;712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601;Updated the document on outlook adding week 4 progress
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-04 16:19",Context-Aware Vulnuerability Prioritization Engine,Weekly Documentation for Technical Report,,,,
+"1219554858130086",2026-10-15,,2026-10-19,EDA,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-10-19,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219370707206078",2026-10-09,2026-10-19,2026-10-19,[Setup] Apply run_dashboard.bat file to your personal PC,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,2026-10-14,2026-10-14,,,Context-Aware Vulnuerability Prioritization Engine,,,,0:15,Low
+"1219356502776816",2026-10-09,2026-10-09,2026-10-09,I-Taxonomies V1 & Asset Classification Design,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-09-30,,"Issue key: KAN-74
+
+Issue id: 10118
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 22:28
+
+Updated: 2026-09-30 19:23
+
+Last Viewed: 2026-10-01 12:29
+
+Resolved: 2026-09-30 19:23
+
+Due date: 2026-09-30 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Costantinos Boyiatzis
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000h3:
+
+Custom field (Start date): 2026-09-30 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: 30/Sep/26 7:23 PM;712020:8b19361f-8358-4e16-bebe-109221f5b4ac;Hey [~accountid:712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601]! I have uploaded the OpenVAS scanning report XML files and {{taxonomies_v1.json}} file. I also just submitted the Pull Request on GitHub.
+
+Here is what you need to do next to kick off the scoring model development:
+
+# Pull the latest code: Run {{git pull}} to fetch my branch ({{feature/my-task}}) or review the PR on GitHub and Approve it.
+# Set up your environment: I excluded my actual NVD API Key for security. Please duplicate the {{.env.sample}} file I created, rename it to {{.env}}, and paste your own NVD API Key inside.
+# Implement the Scoring Algorithm: Open the {{taxonomies_v1.json}} file in Python. Use the {{scoring_dimensions}} weights (Severity 40%, CISA KEV 15%, etc.) to build the algorithm that calculates the final Risk Score (Scale 1-24) from the OpenVAS XML data. I believe we should get advice more about this part from professor tomorrow.
+
+Let me know if you have any questions about the JSON structure. The plain text one is on project chater section 4.
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: Done
+
+Status category changed: 2026-09-30 19:23",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,
+"1219356502776817",2026-10-09,,2026-10-09,CB - W9 Second formal advisor check-in,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-11-05,,"Issue key: KAN-73
+
+Issue id: 10117
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 22:02
+
+Updated: 2026-09-24 22:28
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-05 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000gv:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,Weekly Work Updates to Advisor,,,,
+"1219366231714458",2026-10-09,,2026-10-09,MJ - W9 Second formal advisor check-in,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-05,,"Issue key: KAN-73
+
+Issue id: 10117
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 22:02
+
+Updated: 2026-09-24 22:28
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-05 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000gv:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,Weekly Work Updates to Advisor,,,,
+"1219356374005863",2026-10-09,,2026-10-09,MJ - W12 Work Updates & Open Q&A,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-25,,"Issue key: KAN-70
+
+Issue id: 10114
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 21:54
+
+Updated: 2026-09-24 22:32
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-26 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Costantinos Boyiatzis
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000gf:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:59",Context-Aware Vulnuerability Prioritization Engine,Weekly Work Updates to Advisor,,,,
+"1219366231802641",2026-10-09,,2026-10-09,Weekly Work Updates to Advisor,Untitled section,,,,,,"Issue key: KAN-70
+
+Issue id: 10114
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 21:54
+
+Updated: 2026-09-24 22:32
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-26 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Costantinos Boyiatzis
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000gf:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:59",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219366876057964",2026-10-09,2026-10-09,2026-10-09,MJ - W05 Work Updates,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-07,,"Issue key: KAN-70
+
+Issue id: 10114
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 21:54
+
+Updated: 2026-09-24 22:32
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-26 0:00
+
+Votes: 0
+
+Labels: —
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Costantinos Boyiatzis
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000gf:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:59",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005864",2026-10-09,,2026-10-09,C-Revise Draft based on advisor feedback,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-26,,"Issue key: KAN-69
+
+Issue id: 10113
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Low
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 21:54
+
+Updated: 2026-09-24 23:57
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-26 0:00
+
+Votes: 0
+
+Labels: Close
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000ff:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10107
+
+Parent key: KAN-63
+
+Parent summary: Epic 7: Final Report & Recorded Demo to Advisor
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:59",Context-Aware Vulnuerability Prioritization Engine,Epic 7: Final Report & Recorded Demo to Advisor,,,,
+"1219775910764881",2026-10-22,,2026-10-22,,Untitled section,,,,2026-11-26,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005865",2026-10-09,,2026-10-09,V-Complete Draft Technical Report,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,2026-11-25,,"Issue key: KAN-68
+
+Issue id: 10112
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 21:53
+
+Updated: 2026-09-24 23:57
+
+Last Viewed: 2026-10-01 15:29
+
+Resolved: —
+
+Due date: 2026-11-25 0:00
+
+Votes: 0
+
+Labels: Validation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000fz:
+
+Custom field (Start date): 2026-11-19 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10106
+
+Parent key: KAN-62
+
+Parent summary: Epic 6: Packaging, Documentation & Full-Run
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:59",Context-Aware Vulnuerability Prioritization Engine,Epic 7: Final Report & Recorded Demo to Advisor,,,,
+"1219356374005868",2026-10-09,,2026-10-09,Epic 7: Final Report & Recorded Demo to Advisor,Untitled section,,,,,,"Issue key: KAN-63
+
+Issue id: 10107
+
+Issue Type: Epic
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 20:57
+
+Updated: 2026-09-24 23:43
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-30 0:00
+
+Votes: 0
+
+Labels: Close
+
+Description: * 'Freeze' Deadline 3 Days Early(2026-11-30): We will finish all coding, technical report, recorded demo and 'freeze' the system 3 days before the final deadline to prevent last-minute bugs. 
+* Record Multiple Takes Early: We will record a preliminary (draft) demo video as soon as the core features work, ensuring we have a backup version ready. 
+
+*Output / Deliverable*
+
+* Final Report
+* Recorded Demo
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000ev:
+
+Custom field (Start date): 2026-11-26 0:00
+
+Team Id: 517803fe-045c-455f-ad23-b913ebfb8d14
+
+Team Name: Context-Aware Vulnerability Prioritization Engine
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:00",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219366231802647",2026-10-09,,2026-10-09,C-Submit Final Technical Report,,Myunghee Jung,myunghee@uoguelph.ca,,2026-11-30,,,,Epic 7: Final Report & Recorded Demo to Advisor,,,,
+"1219356374005869",2026-10-09,,2026-10-09,"Epic 6: Packaging, Documentation & Full-Run",Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-62
+
+Issue id: 10106
+
+Issue Type: Epic
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 20:56
+
+Updated: 2026-09-24 23:44
+
+Last Viewed: 2026-10-01 15:28
+
+Resolved: —
+
+Due date: 2026-11-25 0:00
+
+Votes: 0
+
+Labels: Validation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000en:
+
+Custom field (Start date): 2026-11-19 0:00
+
+Team Id: 517803fe-045c-455f-ad23-b913ebfb8d14
+
+Team Name: Context-Aware Vulnerability Prioritization Engine
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:00",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005870",2026-10-09,,2026-10-09,Epic 5-1: Scoring Model Refinement,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,,,"Issue key: KAN-60
+
+Issue id: 10104
+
+Issue Type: Epic
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 20:46
+
+Updated: 2026-10-01 11:36
+
+Last Viewed: 2026-10-01 11:32
+
+Resolved: —
+
+Due date: 2026-11-11 0:00
+
+Votes: 0
+
+Labels: Validation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): KAN-140
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000e7:
+
+Custom field (Start date): 2026-11-05 0:00
+
+Team Id: 517803fe-045c-455f-ad23-b913ebfb8d14
+
+Team Name: Context-Aware Vulnerability Prioritization Engine
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005871",2026-10-09,,2026-10-09,Epic 4: Sensitivity Analysis & Validation,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-59
+
+Issue id: 10103
+
+Issue Type: Epic
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 20:46
+
+Updated: 2026-09-24 23:43
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-04 0:00
+
+Votes: 0
+
+Labels: Execution
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000dz:
+
+Custom field (Start date): 2026-10-22 0:00
+
+Team Id: 517803fe-045c-455f-ad23-b913ebfb8d14
+
+Team Name: Context-Aware Vulnerability Prioritization Engine
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-22 0:01",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005872",2026-10-09,,2026-10-09,Epic 3: Patch-Difficulty & Scoring Engine,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,,,"Issue key: KAN-58
+
+Issue id: 10102
+
+Issue Type: Epic
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 20:45
+
+Updated: 2026-10-02 15:53
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-10-21 0:00
+
+Votes: 0
+
+Labels: Execution
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000dr:
+
+Custom field (Start date): 2026-10-05 0:00
+
+Team Id: 517803fe-045c-455f-ad23-b913ebfb8d14
+
+Team Name: Context-Aware Vulnerability Prioritization Engine
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: In Progress
+
+Status category changed: 2026-09-21 23:59",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005873",2026-10-09,2026-10-09,2026-10-09,Epic 2: Vulnerability Ingestion Pipeline Built,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-57
+
+Issue id: 10101
+
+Issue Type: Epic
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 20:44
+
+Updated: 2026-10-07 13:26
+
+Last Viewed: 2026-10-07 13:26
+
+Resolved: 2026-10-07 13:26
+
+Due date: 2026-10-07 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000dj:
+
+Custom field (Start date): 2026-09-30 0:00
+
+Team Id: 517803fe-045c-455f-ad23-b913ebfb8d14
+
+Team Name: Context-Aware Vulnerability Prioritization Engine
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-07 13:26",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005906",2026-10-09,2026-10-09,2026-10-09,I-1-3 Execute Vulnerability Scans,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-14
+
+Issue id: 10058
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 11:26
+
+Updated: 2026-09-28 23:03
+
+Last Viewed: —
+
+Resolved: 2026-09-28 23:03
+
+Due date: 2026-09-29 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-674e4cf3-bfc9-4fc3-b29e-1e8fc29d34a6.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10078
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-78211d6f-9b37-42de-961d-1f464e36e562.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10077
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-9d1ac035-5a3c-4435-8973-b1c94627a33d(1).xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10079
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-9d1ac035-5a3c-4435-8973-b1c94627a33d.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10082
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-9fc61fbf-acdf-4d92-8d25-37298d7dd596.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10086
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-afb8d9c8-9bde-4b7b-a32c-d397483102fd.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10083
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-b93cb612-c8a3-48d0-a264-25074b307489(1).xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10081
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-b93cb612-c8a3-48d0-a264-25074b307489(2).xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10080
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-b93cb612-c8a3-48d0-a264-25074b307489.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10084
+
+Attachment: 28/Sep/26 11:03 PM;cd68fe62-cd9f-469b-8a7b-d1ee05a20f72;task-f75211a6-9455-4f12-b769-feac0a96f015.xml;https://6560sec02.atlassian.net/rest/api/3/attachment/content/10085
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i0004v:
+
+Custom field (Start date): 2026-09-28 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: Done
+
+Status category changed: 2026-09-28 23:03",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,
+"1219356374005907",2026-10-09,2026-10-09,2026-10-09,I-Baseline Ranked List V0,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-10
+
+Issue id: 10054
+
+Issue Type: Task
+
+Status: To Do
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: High
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 11:06
+
+Updated: 2026-09-28 16:14
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-10-02 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: —
+
+Watchers: —
+
+Watchers Id: —
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i0002t:
+
+Custom field (Start date): 2026-10-01 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: 10100
+
+Parent key: KAN-56
+
+Parent summary: Epic 1: Tool Setup & Config, Threat Modelling
+
+Status category: In Progress
+
+Status category changed: 2026-09-24 20:54",Context-Aware Vulnuerability Prioritization Engine,Epic 2: Vulnerability Ingestion Pipeline Built,,,,
+"1219356374005874",2026-10-09,2026-10-09,2026-10-09,"Epic 1: Tool Setup & Config, Threat Modelling",Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-56
+
+Issue id: 10100
+
+Issue Type: Epic
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 20:40
+
+Updated: 2026-10-07 13:27
+
+Last Viewed: 2026-10-07 13:27
+
+Resolved: 2026-10-07 13:27
+
+Due date: 2026-10-01 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: # Deliverables: Scoping Doc, Scanning Pipeline, Taxonomies V1, Ingestion Pipeline, Baseline Ranked List V0
+# Progress: Shifted to *start in Week 3* due to team resizing
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000db:
+
+Custom field (Start date): 2026-09-17 0:00
+
+Team Id: 517803fe-045c-455f-ad23-b913ebfb8d14
+
+Team Name: Context-Aware Vulnerability Prioritization Engine
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-07 13:27",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005875",2026-10-09,,2026-10-09,[RISK] Recorded Demo Submission Delay Due to Last-Minute Technical Bugs,Untitled section,,,,2026-11-27,,"Issue key: KAN-51
+
+Issue id: 10095
+
+Issue Type: Task
+
+Status: Risk-Register
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 18:29
+
+Updated: 2026-09-24 23:57
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-23 0:00
+
+Votes: 0
+
+Labels: Risk
+
+Description: Requested a recorded demo instead of a live presentation. Any unexpected software bugs or system crashes right before the deadline could delay our video recording or lower the quality of the final submission.
+
+*Mitigation Plan* 
+
+- 'Freeze' Deadline 3 Days Early(2026-11-30): We will finish all coding and 'freeze' the system 3 days before the final deadline to prevent last-minute bugs. 
+
+- Record Multiple Takes Early: We will record a preliminary (draft) demo video as soon as the core features work, ensuring we have a backup version ready.
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000d3:
+
+Custom field (Start date): 2026-11-23 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: To Do
+
+Status category changed: 2026-09-21 18:29",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219367900680923",2026-10-09,2026-10-09,2026-10-09,Epic 0: Project Mgmt Setting,Untitled section,,,,,,,Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005883",2026-10-09,2026-10-09,2026-10-09,[Setup] Configure Jira Project Environment and Populate Initial Tasks,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-43
+
+Issue id: 10087
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 17:16
+
+Updated: 2026-09-22 18:36
+
+Last Viewed: —
+
+Resolved: 2026-09-22 0:04
+
+Due date: 2026-09-21 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000bb:
+
+Custom field (Start date): 2026-09-21 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-22 0:04",Context-Aware Vulnuerability Prioritization Engine,Epic 0: Project Mgmt Setting,,,,
+"1219356374005908",2026-10-09,2026-10-09,2026-10-09,Schedule weekly stand-ups for 3-person team,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-8
+
+Issue id: 10046
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 10:25
+
+Updated: 2026-09-22 18:35
+
+Last Viewed: —
+
+Resolved: 2026-09-21 11:09
+
+Due date: 2026-09-17 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i0002v:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-21 11:09",Context-Aware Vulnuerability Prioritization Engine,Epic 0: Project Mgmt Setting,,,,
+"1219356374005909",2026-10-09,2026-10-09,2026-10-09,Schedule weekly stand-ups for the reduced 2-person team,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-7
+
+Issue id: 10045
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 10:25
+
+Updated: 2026-09-22 18:36
+
+Last Viewed: —
+
+Resolved: 2026-09-21 15:29
+
+Due date: 2026-09-21 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i0002n:
+
+Custom field (Start date): 2026-09-21 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-21 15:29",Context-Aware Vulnuerability Prioritization Engine,Epic 0: Project Mgmt Setting,,,,
+"1219356374005910",2026-10-09,2026-10-09,2026-10-09,Risk Register,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-6
+
+Issue id: 10044
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 10:24
+
+Updated: 2026-09-24 23:57
+
+Last Viewed: —
+
+Resolved: 2026-09-22 0:04
+
+Due date: 2026-09-21 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i0002f:
+
+Custom field (Start date): 2026-09-21 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-22 0:04",Context-Aware Vulnuerability Prioritization Engine,Epic 0: Project Mgmt Setting,,,,
+"1219356374005911",2026-10-09,2026-10-09,2026-10-09,Set up team communication channel,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-5
+
+Issue id: 10043
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 10:23
+
+Updated: 2026-09-22 18:34
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-09-17 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i00027:
+
+Custom field (Start date): 2026-09-14 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-21 11:02",Context-Aware Vulnuerability Prioritization Engine,Epic 0: Project Mgmt Setting,,,,
+"1219356374005912",2026-10-09,2026-10-09,2026-10-09,Project Charter V1.0,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,,,"Issue key: KAN-4
+
+Issue id: 10042
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 10:22
+
+Updated: 2026-09-22 19:01
+
+Last Viewed: 2026-10-01 15:26
+
+Resolved: 2026-09-22 16:40
+
+Due date: 2026-09-22 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): Myunghee
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i0001z:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-22 16:40",Context-Aware Vulnuerability Prioritization Engine,Epic 0: Project Mgmt Setting,,,,
+"1219356374005886",2026-10-09,2026-10-09,2026-10-09,Initial Course Meeting,Untitled section,Costantinos Boyiatzis,cboyiatz@uoguelph.ca,,,,"Issue key: KAN-40
+
+Issue id: 10084
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 15:44
+
+Updated: 2026-09-22 18:33
+
+Last Viewed: —
+
+Resolved: 2026-09-21 15:44
+
+Due date: 2026-09-10 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000an:
+
+Custom field (Start date): 2026-09-10 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-21 15:44",Context-Aware Vulnuerability Prioritization Engine,Epic 0: Project Mgmt Setting,,,,
+"1219356374005876",2026-10-09,2026-10-09,2026-10-09,[RISK] Project Halt due to Single-Team-Member Sickness or Emergency,Untitled section,,,,,,"Issue key: KAN-50
+
+Issue id: 10094
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 18:23
+
+Updated: 2026-10-07 13:26
+
+Last Viewed: 2026-10-07 13:26
+
+Resolved: 2026-10-07 13:26
+
+Due date: 2026-10-05 0:00
+
+Votes: 0
+
+Labels: Risk
+
+Description: If one person gets sick, encounters an emergency, or cannot work, 50% of our project progress will instantly stop. There is no one else to back us up, which creates a critical bottleneck.
+
+*Mitigation Plan*
+
+* Daily Progress Sync & Knowledge Sharing: We will keep all files and code updated daily in a shared repository so either member can access and understand the work at any time.
+* Cross-Training for Critical Tasks: We will both understand the core setup of the project so that one can temporarily take over the other's tasks in an emergency.
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000cv:
+
+Custom field (Start date): 2026-10-05 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-07 13:26",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005877",2026-10-09,2026-10-19,2026-10-19,[RISK] Schema incompatibility between scanner formats,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-02,,"Issue key: KAN-49
+
+Issue id: 10093
+
+Issue Type: Task
+
+Status: Risk-Register
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 18:19
+
+Updated: 2026-09-29 20:58
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: —
+
+Votes: 0
+
+Labels: Risk
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000cn:
+
+Custom field (Start date): 2026-09-28 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: To Do
+
+Status category changed: 2026-09-21 18:19",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005878",2026-10-09,2026-10-09,2026-10-09,[RISK] Insufficient findings from small lab,Untitled section,,,,,,"Issue key: KAN-48
+
+Issue id: 10092
+
+Issue Type: Task
+
+Status: Risk-Register
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: —
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 18:17
+
+Updated: 2026-09-24 22:47
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-10-16 0:00
+
+Votes: 0
+
+Labels: Risk
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000cf:
+
+Custom field (Start date): 2026-10-26 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: To Do
+
+Status category changed: 2026-09-21 18:17",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005879",2026-10-09,,2026-10-09,[RISK] Write-up and reporting deliverable is deprioritized,Untitled section,,,,2026-10-02,,"Issue key: KAN-47
+
+Issue id: 10091
+
+Issue Type: Task
+
+Status: Risk-Register
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 18:11
+
+Updated: 2026-09-24 22:47
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: 2026-11-16 0:00
+
+Votes: 0
+
+Labels: Risk
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000c7:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: To Do
+
+Status category changed: 2026-09-21 18:11",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005880",2026-10-09,2026-10-09,2026-10-09,[RISK] Integration Failure,Untitled section,,,,,,"Issue key: KAN-46
+
+Issue id: 10090
+
+Issue Type: Task
+
+Status: Risk-Register
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: —
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 18:05
+
+Updated: 2026-09-24 22:48
+
+Last Viewed: —
+
+Resolved: —
+
+Due date: —
+
+Votes: 0
+
+Labels: Risk
+
+Description: Integration failure between sub-components — ingestion pipeline output format does not match scoring engine input expectation despite agreed schema
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000bz:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: To Do
+
+Status category changed: 2026-09-21 18:05",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005881",2026-10-09,2026-10-09,2026-10-09,[RISK] Scope,Untitled section,,,,,,"Issue key: KAN-45
+
+Issue id: 10089
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 18:02
+
+Updated: 2026-10-07 13:28
+
+Last Viewed: 2026-10-07 13:27
+
+Resolved: 2026-10-07 13:28
+
+Due date: 2026-09-25 0:00
+
+Votes: 0
+
+Labels: Risk
+
+Description: *Mitigation Plan*
+
+* Prioritize Features (Must-Have vs. Nice-to-Have): We will sort our features using Jira. We will focus 100% on the core features (Must-Have) and drop or delay extra features (Nice-to-Have).
+* Define a Realistic MVP: We will define a Minimum Viable Product (MVP) that two people can realistically finish.
+* Regular Scope Review: We will check our progress every week on the Jira board and cut down the scope immediately if we fall behind schedule.
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000br:
+
+Custom field (Start date): 2026-09-21 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-10-07 13:28",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005882",2026-10-09,2026-10-09,2026-10-09,[RISK][Issue][P-01] Team Member Size,Untitled section,,,,,,"Issue key: KAN-44
+
+Issue id: 10088
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 17:22
+
+Updated: 2026-09-21 22:57
+
+Last Viewed: —
+
+Resolved: 2026-09-21 22:57
+
+Due date: 2026-09-18 0:00
+
+Votes: 0
+
+Labels: Risk
+
+Description: *Risk Description:*
+
+The former team member was completely unavailable during core collaboration hours (9 AM - 5 PM), unrealistic from the start.
+
+*Status*: Triggered / Realized
+
+* Actual Impact: The team size was reduced from 3 to 2
+* Action Taken: 
+
+* -Formally notified the advisor (professor) that the project will proceed as a 2-member team.-
+* -Currently reviewing project tasks to optimize the workload for 2 people.-
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000bj:
+
+Custom field (Start date): 2026-09-17 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-21 22:57",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005884",2026-10-09,2026-10-09,2026-10-09,[Onboarding] Explore Jira Platform and Familiarize with Project Workflows,Untitled section,,,,,,"Issue key: KAN-42
+
+Issue id: 10086
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Medium
+
+Resolution: Done
+
+Assignee: Costantinos Boyiatzis
+
+Assignee Id: 712020:ce0da2fa-bf8f-4faf-b6c2-1b3c84449601
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 17:16
+
+Updated: 2026-09-22 18:37
+
+Last Viewed: 2026-10-01 15:26
+
+Resolved: 2026-09-22 13:30
+
+Due date: 2026-09-22 0:00
+
+Votes: 0
+
+Labels: Initiation
+
+Description: * -Practice updating task statuses-
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000b3:
+
+Custom field (Start date): —
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-22 13:30",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005885",2026-10-09,2026-10-19,2026-10-19,[RISK] VM lab range instability,Untitled section,Myunghee Jung,myunghee@uoguelph.ca,,2026-10-02,,"Issue key: KAN-41
+
+Issue id: 10085
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 16:41
+
+Updated: 2026-10-04 1:40
+
+Last Viewed: 2026-10-04 1:39
+
+Resolved: 2026-09-28 23:05
+
+Due date: 2026-10-04 0:00
+
+Votes: 0
+
+Labels: Risk
+
+Description: *Risk Description:*
+
+Vulnerable VMs crash, lose state, or consume excessive host resources, reducing available scan surface
+
+*Mitigation Strategy:* 
+
+Snapshot all VMs (Metasploitable, DVWA) immediately after initial configuration; document exact VM specs
+
+*Contingency Plan:* 
+
+Restore from snapshot
+
+Reduce lab to 3 hosts minimum
+
+Supplement with pre-recorded scan XML if uptime cannot be guaranteed
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i000av:
+
+Custom field (Start date): 2026-10-02 0:00
+
+Team Id: 517803fe-045c-455f-ad23-b913ebfb8d14
+
+Team Name: Context-Aware Vulnerability Prioritization Engine
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-28 23:05",Context-Aware Vulnuerability Prioritization Engine,,,,,
+"1219356374005904",2026-10-09,,2026-10-19,[RISK] Document and avoid common setup mistakes,Untitled section,,,,2026-10-02,,"Issue key: KAN-21
+
+Issue id: 10065
+
+Issue Type: Task
+
+Status: Done
+
+Project key: KAN
+
+Project name: CIS*6560 Section02
+
+Project type: software
+
+Project lead: Myunghee
+
+Project lead id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Priority: Highest
+
+Resolution: Done
+
+Assignee: Myunghee
+
+Assignee Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Reporter: Myunghee
+
+Reporter Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Creator: Myunghee
+
+Creator Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Created: 2026-09-21 11:28
+
+Updated: 2026-09-28 23:05
+
+Last Viewed: —
+
+Resolved: 2026-09-28 23:05
+
+Due date: 2026-09-27 0:00
+
+Votes: 0
+
+Labels: Risk
+
+Description: —
+
+Watchers: Myunghee
+
+Watchers: —
+
+Watchers Id: 712020:8b19361f-8358-4e16-bebe-109221f5b4ac
+
+Watchers Id: —
+
+Inward issue link (Cloners): —
+
+Outward issue link (Cloners): —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Attachment: —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators): —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Collaborators)Id: —
+
+Custom field (Development): {}
+
+Custom field (Rank): 0|i0006f:
+
+Custom field (Start date): 2026-09-27 0:00
+
+Team Id: —
+
+Team Name: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Comment: —
+
+Parent: —
+
+Parent key: —
+
+Parent summary: —
+
+Status category: Done
+
+Status category changed: 2026-09-28 23:05",Context-Aware Vulnuerability Prioritization Engine,,,,,
