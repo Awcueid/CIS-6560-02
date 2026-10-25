@@ -1,1 +1,12 @@
 .env
+.env.sample
+.venv/
+
+# Generated / output files
+nvd_cache.json
+normalized_results.json
+prioritized_list_v1.csv
+prioritized_list_v1.json
+scan_reports/
+__pycache__/
+*.pyc
