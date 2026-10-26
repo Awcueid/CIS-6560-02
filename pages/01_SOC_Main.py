@@ -1,328 +1,200 @@
-import streamlit as st
-import pandas as pd
-import numpy as np
+import json
 import os
+import subprocess
+import sys
+import numpy as np
+import pandas as pd
 import plotly.express as px
+import streamlit as st
 
-st.set_page_config(page_title="Vulnerability Engine", layout="wide")
-st.markdown("<style>.main-title { font-size: 3.5rem; font-weight: 800; display: block; }\n.top-action-item { font-size: 0.9rem; padding: 6px 10px; background-color: #fff0f0; border-left: 4px solid #ff4b4b; margin-bottom: 6px; border-radius: 0 4px 4px 0; color: #333333; }</style>", unsafe_allow_html=True)
-st.markdown('<h1 class="main-title">Context-Aware Vulnerability Prioritization Engine</h1>', unsafe_allow_html=True)
-st.error("Under Development - Priotized List V1")
-st.markdown("---")
+# 1. Page Configuration
+st.set_page_config(page_title="SOC Main", layout="wide")
 
-@st.cache_data
-def load_raw_data():
-    # Load data with CISA KEV fallback logic
-    p1, p2 = os.path.join("reference_data", "vulnerability_cisa_kev_enriched.xlsx"), os.path.join("reference_data", "vulnerability_contextualization_scanner_sample_updated.xlsx")
-    target = p1 if os.path.exists(p1) else (p2 if os.path.exists(p2) else None)
-    if not target:
-        st.sidebar.error("Error: Reference data infrastructure files not found!")
-        return pd.DataFrame()
-    try: df = pd.read_excel(target, engine='openpyxl')
-    except: df = pd.read_csv(target)
-    
-    if 'CISA KEV Status' not in df.columns:
-        is_kev = df.get('Exploitation context', '').astype(str).str.lower().str.contains('known exploited')
-        df['CISA KEV Status'] = np.where(is_kev, "Confirmed - Active Exploitation", "Standard Monitored")
-        df['CISA Mandated Action'] = np.where(is_kev, "Immediate Action Required Within 24-48 Hours", "Standard Patch Cycle")
-        df['CISA KEV Reference Link'] = df['CVE ID'].apply(lambda x: f"https://nist.gov{x}" if pd.notna(x) and str(x).strip() else "")
-    return df[df['Finding ID'].astype(str).str.startswith('VULN-', na=False)].head(300)
-
-vuln_data = load_raw_data()
-
-# Left Sidebar Navigation
-with st.sidebar:
-    st.header("Navigation & Settings")
-    taxonomy = st.selectbox("Taxonomy", ["None", "Option A-CB", "Option B-MJ", "Option C-MK"], index=1)
-    # taxonomy = st.selectbox("Taxonomy", ["None", "Threat-Focused", "Balanced", "Business-Focused"], index=1)
-    st.markdown("---")
-    st.button("Recalculate", use_container_width=True)
-
-norm_option = "None (Original)"
-
-# -----------------------------------------------------------------------------
-# Data Ingestion & Engine Processing
-# -----------------------------------------------------------------------------
-
-if taxonomy == "Option B":
-    from engines.taxonomy_b_engine import run_option_b_engine
-    vuln_data = run_option_b_engine(vuln_data)
-
-# Main Dashboard Metrics Computation
-total = len(vuln_data)
-status, mttr, uniq_cves, crit_vulns, crit_delta, top_actions = "Stable", "N/A", "0\n(No CVE: 0)", 0, "No Data Available", []
-
-if total > 0:
-    cves = vuln_data['CVE ID'].dropna() if 'CVE ID' in vuln_data.columns else pd.Series()
-    uniq_cves = f"{cves.nunique():,}\n(No CVE: {vuln_data['CVE ID'].isna().sum() if 'CVE ID' in vuln_data.columns else 0:,})"
-    
-    if 'CVSS severity' in vuln_data.columns:
-        crit_df = vuln_data[vuln_data['CVSS severity'] == 'Critical']
-        crit_vulns = len(crit_df)
-        if crit_vulns > 0 and 'Asset group' in crit_df.columns:
-            crit_delta = " | ".join(crit_df['Asset group'].value_counts().index[:3].astype(str))
-
-    if 'Contextual priority' in vuln_data.columns:
-        p1_cnt = vuln_data['Contextual priority'].astype(str).str.contains('P1', case=False, na=False).sum()
-        status = "High Risk" if p1_cnt >= 10 else ("Medium Risk" if p1_cnt >= 1 else "Stable")
-        if 'CVSS base score' in vuln_data.columns:
-            p1_df = vuln_data[vuln_data['Contextual priority'].astype(str).str.contains('P1', case=False, na=False)].copy()
-            p1_df['CVSS base score'] = pd.to_numeric(p1_df['CVSS base score'], errors='coerce')
-            for _, r in p1_df.sort_values('CVSS base score', ascending=False).head(5).iterrows():
-                top_actions.append(f"{str(r.get('CVE ID', 'No CVE')).strip()} [{r.get('Asset group', '')}]: {str(r.get('Vulnerability title', '')).strip()}")
-
-    if 'Estimated remediation effort' in vuln_data.columns:
-        def to_days(x):
-            v = str(x).lower()
-            if 'hour' in v: return 0.2
-            nums = [int(s) for s in v.replace('–', '-').split('-') if s.isdigit()]
-            return (sum(nums)/len(nums) if nums else 2.0) * (7.0 if 'week' in v else 1.0)
-        efforts = vuln_data['Estimated remediation effort'].apply(to_days).dropna()
-        if not efforts.empty: mttr = f"{efforts.mean():.1f} Days"
-
-# Layout Components Rendering
-col_status, col_chart = st.columns(2)
-with col_status:
-    st.metric("Status", status)
-    
-    # ----------------------------------------------------------------------
-    # Recalculate Contextual Priority
-    # ----------------------------------------------------------------------
-    if total > 0 and 'Contextual priority' in vuln_data.columns:
-        st.markdown("<p style='font-size: 1.1rem; font-weight:700; margin-top:15px;'>Vulnerability by Contextual Priority</p>", unsafe_allow_html=True)
-        
-        priority_df = vuln_data['Contextual priority'].value_counts().reset_index(name='Count')
-        
-        fig_priority = px.pie(
-            priority_df, 
-            values='Count', 
-            names='Contextual priority', 
-            hole=0.4, 
-            color_discrete_sequence=px.colors.sequential.OrRd_r
-        )
-        fig_priority.update_traces(textposition='inside', textinfo='percent+value')
-        fig_priority.update_layout(margin=dict(t=10, b=15, l=0, r=0), height=350)
-        
-        st.plotly_chart(fig_priority, use_container_width=True)
-    
-    if top_actions:
-        st.markdown("<p style='font-size: 1.1rem; font-weight:700; margin-top:15px;'>Immediate Action Required (Top 5):</p>", unsafe_allow_html=True)
-        for act in top_actions: 
-            st.markdown(f"<div class='top-action-item'>{act}</div>", unsafe_allow_html=True)
-    elif total > 0: 
-        st.markdown("<p style='color:green; font-weight:600; margin-top:15px;'>No active P1 vulnerabilities found.</p>", unsafe_allow_html=True)
-
-
-with col_chart:
-    if total > 0 and 'Asset group' in vuln_data.columns:
-        gdf = vuln_data['Asset group'].value_counts().reset_index(name='Count')
-        fig = px.pie(gdf, values='Count', names='Asset group', title='Vulnerability Distribution by Asset Group', hole=0.4, color_discrete_sequence=px.colors.sequential.RdBu)
-        fig.update_traces(textposition='inside', textinfo='percent+value').update_layout(margin=dict(t=40, b=0, l=0, r=0), height=600)
-        st.plotly_chart(fig, use_container_width=True)
-
-st.markdown("---")
-
-metrics_data = [
-    {"label": "Critical", "val": f"{crit_vulns}", "delta": crit_delta if crit_delta != "No Data Available" else None},
-    {"label": "Est. MTTR", "val": mttr, "delta": None},
-]
-
-col_total, col_critical, col_mttr = st.columns(3)
-
-with col_total:
-    st.metric(
-        label="Total Findings",
-        value=f"{total:,}",
-        delta=None,
-    )
-    st.markdown(f"Unique CVEs: {uniq_cves}")
-
-with col_critical:
-    st.metric(
-        label="Critical",
-        value=f"{crit_vulns}",
-        delta=crit_delta if crit_delta != "No Data Available" else None,
-        delta_color="inverse" if crit_delta and crit_delta != "No Data Available" else "normal",
-    )
-
-with col_mttr:
-    st.metric(
-        label="Est. MTTR",
-        value=mttr,
-        delta=None,
-    )
-
-st.markdown("---")
-
-# Extracted row styling handler to solve f-string nested token limitations
-def get_severity_styles(row):
-    color_map = {'critical': '#ffcccc; color: #990000; font-weight: bold', 'high': '#ffe6cc; color: #b35900; font-weight: bold', 'medium': '#ffffcc; color: #808000', 'low': '#e6ffcc; color: #336600'}
-    severity = str(row.get('CVSS severity', '')).strip().lower()
-    style = f"background-color: {color_map[severity]}" if severity in color_map else ""
-    return [style] * len(row)
-
-def render_queue(df_source):
-    if len(df_source) == 0:
-        st.warning("No data available for this queue view.")
-        return
-
-    df_disp = df_source.copy()
-
-    # Add row numbers
-    df_disp.insert(0, "No.", np.arange(1, len(df_disp) + 1))
-
-    # Remove internal columns
-    df_disp = df_disp.drop(
-        columns=[c for c in ["Finding ID", "Data status"] if c in df_disp.columns]
-    )
-
-    # Build valid NVD detail links
-    if "CVE ID" in df_disp.columns:
-        df_disp["CVE ID"] = df_disp["CVE ID"].astype(str).str.strip()
-
-        df_disp["NVD Details"] = df_disp["CVE ID"].apply(
-            lambda cve: (
-                f"https://nvd.nist.gov/vuln/detail/{cve}"
-                if cve and cve.lower() != "nan"
-                else ""
-            )
-        )
-
-    # Put the most important columns first
-    priority_columns = [
-        "No.",
-        "Vulnerability title",
-        "CVE ID",
-        "CISA KEV Status",
-        "CISA Mandated Action",
-        "CISA KEV Feed Link",
-        "NVD Details",
-    ]
-
-    # Keep only columns that actually exist, in the requested order
-    ordered_columns = [c for c in priority_columns if c in df_disp.columns]
-
-    # Add every remaining column after the priority columns
-    remaining_columns = [c for c in df_disp.columns if c not in ordered_columns]
-    df_disp = df_disp[ordered_columns + remaining_columns]
-
-    # Numeric formatting
-    fmt = {
-        key: value
-        for key, value in [
-            ("CVSS base score", "{:.1f}"),
-            ("Normalized Score", "{:.2f}"),
-        ]
-        if key in df_disp.columns
+# Force light theme mode regardless of system or browser dark mode settings
+st.markdown(
+    """
+    <style>
+    :root {
+        --color-background: #ffffff;
+        --color-text: #31333F;
     }
-
-    # Column display configuration
-    cfg = {
-        "No.": st.column_config.NumberColumn("No.", format="%d"),
-        "Vulnerability title": st.column_config.TextColumn("Vulnerability Title"),
-        "CVE ID": st.column_config.TextColumn("CVE ID"),
-        "CISA KEV Status": st.column_config.TextColumn("CISA KEV Status"),
-        "CISA Mandated Action": st.column_config.TextColumn("CISA Mandated Action"),
-        "CISA KEV Feed Link": st.column_config.LinkColumn(
-            "CISA KEV Feed Link",
-            display_text="Open CISA Portal",
-        ),
-        "NVD Details": st.column_config.LinkColumn(
-            "NVD Details",
-            display_text="Open NVD",
-        ),
-        "Normalized Score": st.column_config.NumberColumn(
-            "Normalized Score",
-            format="%.2f",
-        ),
-    }
-
-    st.dataframe(
-        df_disp.style.apply(get_severity_styles, axis=1).format(fmt, na_rep=""),
-        use_container_width=True,
-        height=650,
-        hide_index=True,
-        column_config=cfg,
-    )
-
-
-tab_option_a, tab_option_b, tab_option_c, tab_cisa, tab_all = st.tabs(
-    [
-        "Option A",
-        "Option B",
-        "Option C",
-        "CISA KEV Validated Queue",
-        "Queue",
-    ]
+    </style>
+    """,
+    unsafe_allow_html=True
 )
 
+# 2. Native Multipage Directory Scanning Enforcer
+# This explicit declaration prevents the left sidebar menu from disappearing due to numeric file naming layout conflicts
+with st.sidebar:
+    st.markdown("### Navigation Controls")
+    st.markdown("---")
 
-# -----------------------------
-# Option A
-# -----------------------------
-with tab_option_a:
-    st.subheader("Option A: Threat-Focused - In Development")
+S_DIR = os.path.dirname(os.path.abspath(__file__))
+P_DIR = os.path.dirname(S_DIR)
 
-    if taxonomy == "Option A":
-        st.info("Option A taxonomy queue is not connected yet.")
-        # render_queue(df_taxonomy_queue_a)
+# Synced path to look inside the 'engines' subfolder for absolute consistency
+W_CONF = os.path.join(P_DIR, "engines", "weight_config.json")
+TAX_FILES = {k: os.path.join(S_DIR, f"taxonomy_option_{k.lower()}.json") for k in ["A", "B", "C"]}
+SCORING_SCRIPT_PATH = os.path.join(P_DIR, "engines", "scoring.py")
+OUTPUT_EXCEL_PATH = os.path.join(S_DIR, "multi_taxonomy_weighted_risk_model.xlsx")
+
+# 3. Mathematical Risk Engine
+def get_matrix_config(opt_letter):
+    w, m = {}, {}
+    if os.path.exists(W_CONF):
+        try: w = json.load(open(W_CONF, "r", encoding="utf-8")).get("weights", {})
+        except: pass
+    t_path = TAX_FILES.get(opt_letter, "")
+    if os.path.exists(t_path):
+        try: m = {str(k).strip().lower(): v for k, v in json.load(open(t_path, "r", encoding="utf-8")).get("exposure_classification_mapping", {}).items()}
+        except: pass
+    return w, m
+
+def calc_risk(row, asset_val, w):
+    v_sev = (row["CVSS base score"] / 10.0) if pd.notna(row.get("CVSS base score")) else 0.0
+    v_exp = 1.0 if "active" in str(row.get("Exploitation context", "")).lower() else 0.0
+    return round(((v_sev * w.get("severity", 0.4)) + (v_exp * w.get("exploited_in_the_wild", 0.15)) + 
+                  (0.5 * w.get("poc_exploit_availability", 0.1)) + (0.5 * w.get("patch_difficulty", 0.1)) + 
+                  (0.3 * w.get("compensating_controls", 0.1)) + ((asset_val / 4.0) * w.get("asset_criticality", 0.1))) * 100.0, 2)
+
+# 4. Data Ingestion
+@st.cache_data
+def load_data():
+    p1, p2 = os.path.join("reference_data", "vulnerability_cisa_kev_enriched.xlsx"), "vulnerability_contextualization_scanner_sample_updated.xlsx"
+    if not os.path.exists(p1) and os.path.exists(os.path.join(P_DIR, "reference_data", p2)): p2 = os.path.join(P_DIR, "reference_data", p2)
+    tgt = p1 if os.path.exists(p1) else (p2 if os.path.exists(p2) else None)
+    if not tgt: return pd.DataFrame()
+    df = pd.read_excel(tgt, engine="openpyxl") if tgt.endswith(".xlsx") else pd.read_csv(tgt)
+    if "CISA KEV Status" not in df.columns:
+        df["CISA KEV Status"] = np.where(df.get("Exploitation context", "").astype(str).str.lower().str.contains("known exploited"), "Confirmed - Active Exploitation", "Standard Monitored")
+    return df[df["Finding ID"].astype(str).str.startswith("VULN-", na=False)].head(300)
+
+# Load compiled model from scoring.py if available
+def load_compiled_model_data():
+    if os.path.exists(OUTPUT_EXCEL_PATH):
+        try:
+            return pd.read_excel(OUTPUT_EXCEL_PATH, engine="openpyxl")
+        except:
+            return None
+    return None
+
+if "active_taxonomy" not in st.session_state: st.session_state.active_taxonomy = "Option B"
+
+
+# 5. Main Dashboard Header View Layout
+st.title("SOC Main Dashboard")
+
+# System Control Room Section to execute the backend script
+st.subheader("Backend Engine Control Room")
+if st.button("Execute Scoring Engine (scoring.py)", use_container_width=True, type="primary"):
+    if os.path.exists(SCORING_SCRIPT_PATH):
+        with st.spinner("Executing background mathematical calculations via scoring.py..."):
+            try:
+                result = subprocess.run(
+                    [sys.executable, SCORING_SCRIPT_PATH],
+                    capture_output=True, text=True, check=True
+                )
+                st.success("Scoring Engine compiled and completed successfully.")
+                st.cache_data.clear()
+                st.rerun()
+            except subprocess.CalledProcessError as e:
+                st.error(f"Execution Error inside scoring.py script pipeline: {e.stderr}")
+            except Exception as ex:
+                st.error(f"Unexpected operational error during subsystem routing: {ex}")
     else:
-        st.info("Please select **Option A** to view this queue.")
+        st.error(f"Target executable background script not found at absolute path destination: {SCORING_SCRIPT_PATH}")
 
+st.markdown("---")
 
-# -----------------------------
-# Option B
-# -----------------------------
-with tab_option_b:
-    st.subheader("Option B: Balanced - In Development")
+st.subheader("Select Active Taxonomy Perspective")
+btn_none, btn_a, btn_b, btn_c = st.columns(4)
 
-    if taxonomy == "Option B":
-        if "Normalized Score" in vuln_data.columns:
-            sorted_taxonomy_data_b = vuln_data.sort_values(
-                by="Normalized Score",
-                ascending=False,
-            )
-            render_queue(sorted_taxonomy_data_b)
+with btn_none:
+    if st.button("None", use_container_width=True, type="secondary" if st.session_state.active_taxonomy != "None" else "primary"):
+        st.session_state.active_taxonomy = "None"
+        st.rerun()
+with btn_a:
+    if st.button("Option A", use_container_width=True, type="secondary" if st.session_state.active_taxonomy != "Option A" else "primary"):
+        st.session_state.active_taxonomy = "Option A"
+        st.rerun()
+with btn_b:
+    if st.button("Option B", use_container_width=True, type="secondary" if st.session_state.active_taxonomy != "Option B" else "primary"):
+        st.session_state.active_taxonomy = "Option B"
+        st.rerun()
+with btn_c:
+    if st.button("Option C", use_container_width=True, type="secondary" if st.session_state.active_taxonomy != "Option C" else "primary"):
+        st.session_state.active_taxonomy = "Option C"
+        st.rerun()
+
+st.markdown(f"**Current Active View:** Framework processing routed to **{st.session_state.active_taxonomy}**")
+st.markdown("---")
+
+# 6. Engine Processing
+v_data = load_data()
+is_dyn = not v_data.empty and "Exposure classification" in v_data.columns and st.session_state.active_taxonomy != "None"
+
+if is_dyn:
+    w_mat, tax_map = get_matrix_config(st.session_state.active_taxonomy[-1])
+    a_scores = v_data["Exposure classification"].astype(str).str.strip().str.lower().map(tax_map).fillna(1).astype(int)
+    v_data["Normalized Score"] = v_data.apply(lambda r: calc_risk(r, a_scores.loc[r.name], w_mat), axis=1)
+
+# 7. UI Metrics & Charts
+tot = len(v_data)
+s_col = "Normalized Score" if is_dyn else "CVSS base score"
+h_thresh = 75.0 if is_dyn else 8.0
+
+# Calculate Contextual Priority metrics dynamically based on configuration threshold rules
+if is_dyn:
+    priority_count = len(v_data[v_data["Normalized Score"] >= 85.0]) if tot > 0 else 0
+    priority_label = "Contextual Priority (Score >= 85)"
+else:
+    priority_count = len(v_data[v_data["CVSS base score"] >= 9.0]) if tot > 0 else 0
+    priority_label = "Contextual Priority (CVSS >= 9.0)"
+
+c1, c2, c3 = st.columns(3)
+c1.metric("Total Active Detections", f"{tot:,}")
+c2.metric(priority_label, f"{priority_count:,}")
+c3.metric(f"High Risk Threshold (>= {h_thresh})", len(v_data[v_data[s_col] >= h_thresh]) if tot > 0 else 0)
+
+ch_col, act_col = st.columns(2)
+with ch_col:
+    if tot > 0 and "Asset group" in v_data.columns:
+        st.plotly_chart(px.pie(v_data["Asset group"].value_counts().reset_index(name="Count"), values="Count", names="Asset group", hole=0.4, title="Detections by Asset Group"), use_container_width=True)
+with act_col:
+    st.markdown("**Actionable Mitigation Directives (Top 5 Prioritized):**")
+    
+    compiled_df = load_compiled_model_data()
+    
+    if compiled_df is not None and not compiled_df.empty:
+        if st.session_state.active_taxonomy == "Option A":
+            model_sort_col = "Final_Risk_Score_Option_A"
+        elif st.session_state.active_taxonomy == "Option C":
+            model_sort_col = "Final_Risk_Score_Option_C"
         else:
-            st.error(
-                "Engine failure: 'Normalized Score' column not found in dataset."
-            )
+            model_sort_col = "Final_Risk_Score_Option_B"
+            
+        if model_sort_col in compiled_df.columns:
+            for _, r in compiled_df.sort_values(by=model_sort_col, ascending=False).head(5).iterrows():
+                st.info(f"{str(r.get('CVE ID', 'No CVE'))} [{r.get('Asset group', 'General')}]: {r.get('Vulnerability title', 'Untitled Finding')} (Engine Score: {r.get(model_sort_col)})")
+        else:
+            if tot > 0:
+                for _, r in v_data.sort_values(by=s_col, ascending=False).head(5).iterrows():
+                    st.info(f"{str(r.get('CVE ID', 'No CVE'))} [{r.get('Asset group', 'General')}]: {r.get('Vulnerability title', 'Untitled Finding')} (Score: {r.get(s_col)})")
     else:
-        st.info("Please select **Option B** to view this queue.")
+        if tot > 0:
+            for _, r in v_data.sort_values(by=s_col, ascending=False).head(5).iterrows():
+                st.info(f"{str(r.get('CVE ID', 'No CVE'))} [{r.get('Asset group', 'General')}]: {r.get('Vulnerability title', 'Untitled Finding')} (Score: {r.get(s_col)})")
 
+# 8. Matrix Queues
+def render_q(df):
+    if df.empty: return st.warning("No tracking items found inside current queue perspective.")
+    df_d = df.copy()
+    df_d.insert(0, "No.", np.arange(1, len(df_d) + 1))
+    cols = [c for c in ["No.", "Vulnerability title", "CVE ID", "CISA KEV Status", "Normalized Score", "CVSS base score"] if c in df_d.columns]
+    st.dataframe(df_d[cols + [c for c in df_d.columns if c not in cols and c not in ["Finding ID", "Data status"]]], use_container_width=True, height=400, hide_index=True)
 
-# -----------------------------
-# Option C
-# -----------------------------
-with tab_option_c:
-    st.subheader("Option C: Business-Focused")
-
-    if taxonomy == "Option C":
-        st.info("Option C taxonomy queue is not connected yet.")
-          # render_queue(df_taxonomy_queue_c)
-    else:
-        st.info("Please select **Option C** to view this queue.")
-
-
-# -----------------------------
-# CISA KEV
-# -----------------------------
-with tab_cisa:
-    st.subheader("CISA KEV Validated Queue")
-
-    if "CISA KEV Status" in vuln_data.columns:
-        cisa_filtered_data = vuln_data[
-            vuln_data["CISA KEV Status"] == "Confirmed - Active Exploitation"
-        ]
-    else:
-        cisa_filtered_data = pd.DataFrame()
-
-    render_queue(cisa_filtered_data)
-
-
-# -----------------------------
-# All findings
-# -----------------------------
-with tab_all:
-    st.subheader("Queue")
-    render_queue(vuln_data)
+st.subheader("Strategic Model Comparison Matrix")
+t1, t2, t3 = st.tabs(["Active Framework Queue", "CISA KEV Feed Validation", "All Discovered Vulnerabilities"])
+with t1: render_q(v_data.sort_values(by=s_col, ascending=False) if tot > 0 else v_data)
+with t2: render_q(v_data[v_data["CISA KEV Status"] == "Confirmed - Active Exploitation"] if "CISA KEV Status" in v_data.columns else pd.DataFrame())
+with t3: render_q(v_data)

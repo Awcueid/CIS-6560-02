@@ -48,5 +48,5 @@ if st.session_state.selected_version is None:
             st.rerun()
 
 else:
-    pg = st.navigation([st.session_state.selected_version], position="hidden")
+    pg = st.navigation([st.session_state.selected_version], position="sidebar", expanded=True)
     pg.run()

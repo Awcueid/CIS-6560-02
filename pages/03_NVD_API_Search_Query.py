@@ -2,11 +2,6 @@ import os
 import requests
 import pandas as pd
 import streamlit as st
-from utils import apply_theme, render_sidebar
-
-# Apply theme and render sidebar toggle
-apply_theme()
-render_sidebar()
 
 BASE_URL = "https://services.nvd.nist.gov/rest/json/cves/2.0"
 API_KEY = os.getenv("NVD_API_KEY", "")

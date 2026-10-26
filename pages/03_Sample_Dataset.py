@@ -1,11 +1,6 @@
 import os
 import pandas as pd
 import streamlit as st
-from utils import apply_theme, render_sidebar
-
-# Apply theme and render sidebar toggle
-apply_theme()
-render_sidebar()
 
 EXCEL_FILE_PATH = "reference_data/vulnerability_contextualization_scanner_sample_updated.xlsx"
 

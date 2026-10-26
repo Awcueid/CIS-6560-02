@@ -1,0 +1,23 @@
+{
+  "active_default_taxonomy": "Option B",
+  "registered_taxonomies": [
+    {
+      "id": "A",
+      "system_key": "Option A",
+      "option_name": "Option A (Traditional Security / Exposure-Centric)",
+      "filename": "taxonomy_option_a.json"
+    },
+    {
+      "id": "B",
+      "system_key": "Option B",
+      "option_name": "Option B (Business Impact-Centric)",
+      "filename": "taxonomy_option_b.json"
+    },
+    {
+      "id": "C",
+      "system_key": "Option C",
+      "option_name": "Option C (Hybrid / Mitigating Controls-Centric)",
+      "filename": "taxonomy_option_c.json"
+    }
+  ]
+}
